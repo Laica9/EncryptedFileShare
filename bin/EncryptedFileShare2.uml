@@ -1,0 +1,1357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_aflgUNdtEeum65_6TcdgWw" name="EncryptedFileShare2">
+    <eAnnotations xmi:id="_an4gsNdtEeum65_6TcdgWw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_an6V4NdtEeum65_6TcdgWw" source="codegen">
+        <details xmi:id="_an6V4ddtEeum65_6TcdgWw" key="codegenDirectory" value="/EncryptedFileShare/src"/>
+        <details xmi:id="_a3DlINdtEeum65_6TcdgWw" key="AssociatedSourceCode" value="/EncryptedFileShare/src/encryption/EncryptedSharedFile.java;3157821538/1;/EncryptedFileShare/src/encryption/RSAGenerator.java;571662637/1;/EncryptedFileShare/src/encryption/User.java;3737838860/1;/EncryptedFileShare/src/ui/EncryptedFileShareApp.java;792463828/1;/EncryptedFileShare/src/ui/NewUserDialog.java;2313798543/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_ayHawNdtEeum65_6TcdgWw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_ayHawddtEeum65_6TcdgWw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_ayHawtdtEeum65_6TcdgWw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_ayHaw9dtEeum65_6TcdgWw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_ayHaxNdtEeum65_6TcdgWw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_ayHaxddtEeum65_6TcdgWw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_ayHaxtdtEeum65_6TcdgWw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_ayHax9dtEeum65_6TcdgWw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_ayIB0NdtEeum65_6TcdgWw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ayIo4NdtEeum65_6TcdgWw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ayIo4ddtEeum65_6TcdgWw" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_azR4YNdtEeum65_6TcdgWw" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azSfcddtEeum65_6TcdgWw" name="FileInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azSfc9dtEeum65_6TcdgWw" name="FileOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azTGgddtEeum65_6TcdgWw" name="IOException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azTGg9dtEeum65_6TcdgWw" name="ObjectInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azTGhddtEeum65_6TcdgWw" name="ObjectOutputStream"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_azTGh9dtEeum65_6TcdgWw" name="Serializable"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ayIo4tdtEeum65_6TcdgWw" name="security">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ayIo49dtEeum65_6TcdgWw" name="spec">
+          <packagedElement xmi:type="uml:Class" xmi:id="_azU7s9dtEeum65_6TcdgWw" name="PKCS8EncodedKeySpec"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_azViwddtEeum65_6TcdgWw" name="X509EncodedKeySpec"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azTtkddtEeum65_6TcdgWw" name="GeneralSecurityException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azTtk9dtEeum65_6TcdgWw" name="KeyFactory"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_azUUoddtEeum65_6TcdgWw" name="PrivateKey"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_azUUo9dtEeum65_6TcdgWw" name="PublicKey"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azU7sddtEeum65_6TcdgWw" name="SecureRandom"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azZNIddtEeum65_6TcdgWw" name="KeyPair"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azZNI9dtEeum65_6TcdgWw" name="KeyPairGenerator"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ayIo5NdtEeum65_6TcdgWw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_azViw9dtEeum65_6TcdgWw" name="Arrays"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azVixddtEeum65_6TcdgWw" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_azWJ0ddtEeum65_6TcdgWw" name="List"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_azWJ09dtEeum65_6TcdgWw" name="Map"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azZ0MNdtEeum65_6TcdgWw" name="Base64"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azcQcddtEeum65_6TcdgWw" name="Collections"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ayRy0NdtEeum65_6TcdgWw" name="nio">
+        <packagedElement xmi:type="uml:Package" xmi:id="_aySZ4NdtEeum65_6TcdgWw" name="file">
+          <packagedElement xmi:type="uml:Class" xmi:id="_azYmENdtEeum65_6TcdgWw" name="Files"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ayTA8ddtEeum65_6TcdgWw" name="awt">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ayTA8tdtEeum65_6TcdgWw" name="event">
+          <packagedElement xmi:type="uml:Class" xmi:id="_azbpY9dtEeum65_6TcdgWw" name="ActionEvent"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_azbpZddtEeum65_6TcdgWw" name="ActionListener"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azabRNdtEeum65_6TcdgWw" name="BorderLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azbCUddtEeum65_6TcdgWw" name="Color"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azbCU9dtEeum65_6TcdgWw" name="EventQueue"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azbCVddtEeum65_6TcdgWw" name="GridBagConstraints"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azbCV9dtEeum65_6TcdgWw" name="GridBagLayout"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azbpYddtEeum65_6TcdgWw" name="Insets"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azfTwNdtEeum65_6TcdgWw" name="FlowLayout"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_azkzUNdtEeum65_6TcdgWw" name="lang">
+        <packagedElement xmi:type="uml:Class" xmi:id="_azkzUddtEeum65_6TcdgWw" name="Exception"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ayIo5ddtEeum65_6TcdgWw" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ayJP8NdtEeum65_6TcdgWw" name="crypto">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ayJP8ddtEeum65_6TcdgWw" name="spec">
+          <packagedElement xmi:type="uml:Class" xmi:id="_azWw49dtEeum65_6TcdgWw" name="IvParameterSpec"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_azWw5ddtEeum65_6TcdgWw" name="SecretKeySpec"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azWJ1ddtEeum65_6TcdgWw" name="Cipher"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azWJ19dtEeum65_6TcdgWw" name="KeyGenerator"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_azWw4ddtEeum65_6TcdgWw" name="SecretKey"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ayTA8NdtEeum65_6TcdgWw" name="swing">
+        <packagedElement xmi:type="uml:Package" xmi:id="_ayToANdtEeum65_6TcdgWw" name="border">
+          <packagedElement xmi:type="uml:Class" xmi:id="_azeFotdtEeum65_6TcdgWw" name="LineBorder"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_azf609dtEeum65_6TcdgWw" name="EmptyBorder"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azabQNdtEeum65_6TcdgWw" name="JFileChooser"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azabQtdtEeum65_6TcdgWw" name="JOptionPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azcQc9dtEeum65_6TcdgWw" name="DefaultListModel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azcQdddtEeum65_6TcdgWw" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azc3gddtEeum65_6TcdgWw" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azc3g9dtEeum65_6TcdgWw" name="JLabel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azdekNdtEeum65_6TcdgWw" name="JList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azdektdtEeum65_6TcdgWw" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azdelNdtEeum65_6TcdgWw" name="JTabbedPane"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azeFoNdtEeum65_6TcdgWw" name="JTextField"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_azf60ddtEeum65_6TcdgWw" name="JDialog"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ayLsMNdtEeum65_6TcdgWw" name="encryption">
+      <packagedElement xmi:type="uml:Package" xmi:id="_ayToAddtEeum65_6TcdgWw" name="EncryptedSharedFile">
+        <packagedElement xmi:type="uml:Class" xmi:id="_azeFpNdtEeum65_6TcdgWw" name="SharedFileContents"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ayZuoNdtEeum65_6TcdgWw" name="EncryptedSharedFile">
+        <ownedComment xmi:id="_azt9Q9dtEeum65_6TcdgWw">
+          <body>@author Ioanna Pashalidi Kozelj - nnp8llf
+ *
+ *This class contains methods that implement encryption, decryptioon and deals with the file storage</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_aznPkNdtEeum65_6TcdgWw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aznPkddtEeum65_6TcdgWw" value="-6673024660015796987L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_azn2o9dtEeum65_6TcdgWw" name="encryptedContents" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azn2pNdtEeum65_6TcdgWw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_azn2p9dtEeum65_6TcdgWw" name="encryptedOriginalName" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azn2qNdtEeum65_6TcdgWw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_azn2q9dtEeum65_6TcdgWw" name="ivSpecBytes" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azodsNdtEeum65_6TcdgWw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_azods9dtEeum65_6TcdgWw" name="systemEncryptedKey" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azodtNdtEeum65_6TcdgWw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_azodt9dtEeum65_6TcdgWw" name="userEncryptionKeys" visibility="private" type="_azWJ09dtEeum65_6TcdgWw" association="_azwZgNdtEeum65_6TcdgWw"/>
+        <interfaceRealization xmi:id="_aziXENdtEeum65_6TcdgWw" client="_ayZuoNdtEeum65_6TcdgWw" supplier="_azTGh9dtEeum65_6TcdgWw" contract="_azTGh9dtEeum65_6TcdgWw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_azsvINdtEeum65_6TcdgWw" name="load" specification="_azi-INdtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_azsvIddtEeum65_6TcdgWw" name="input" type="_azR4YNdtEeum65_6TcdgWw"/>
+          <ownedParameter xmi:id="_azsvItdtEeum65_6TcdgWw" type="_ayZuoNdtEeum65_6TcdgWw" direction="return"/>
+          <language>java</language>
+          <body>ObjectInputStream ois = new ObjectInputStream(new FileInputStream(input));
+		try {
+			Object obj = ois.readObject();
+			if (obj instanceof EncryptedSharedFile)
+				return (EncryptedSharedFile) obj;
+
+		} catch (ClassNotFoundException e) {
+			// No-op, exception will be handled later.
+		} finally {
+			ois.close();
+		}
+
+		throw new IOException(&quot;The supplied file could not be read or does not contain an EncryptedSharedFile.&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_azsvI9dtEeum65_6TcdgWw" name="EncryptedSharedFile" specification="_azjlMNdtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_azsvJNdtEeum65_6TcdgWw" name="filename">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azsvJddtEeum65_6TcdgWw" name="fileContents">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azsvJtdtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azsvJ9dtEeum65_6TcdgWw" name="sharingParties" type="_azWJ0ddtEeum65_6TcdgWw"/>
+          <ownedParameter xmi:id="_azsvKNdtEeum65_6TcdgWw" name="systemKey">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azsvKddtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azsvKtdtEeum65_6TcdgWw" type="_ayZuoNdtEeum65_6TcdgWw" direction="return"/>
+          <language>java</language>
+          <body>KeyGenerator keyGen = KeyGenerator.getInstance(&quot;AES&quot;);
+		SecureRandom rnd = new SecureRandom();
+
+		keyGen.init(256);
+		SecretKey systemEncryptionKey = keyGen.generateKey();
+
+		byte[] iv = new byte[16];
+		rnd.nextBytes(iv);
+		IvParameterSpec ivSpec = new IvParameterSpec(iv);
+		ivSpecBytes = iv;
+
+		Cipher cipher = Cipher.getInstance(&quot;AES/CBC/PKCS5Padding&quot;);
+
+		cipher.init(Cipher.ENCRYPT_MODE, systemEncryptionKey, ivSpec);
+		encryptedOriginalName = cipher.doFinal(filename.getBytes());
+
+		cipher.init(Cipher.ENCRYPT_MODE, systemEncryptionKey, ivSpec);
+		encryptedContents = cipher.doFinal(fileContents);
+
+		Cipher rsaCipher = Cipher.getInstance(&quot;RSA&quot;);
+		
+		userEncryptionKeys = new HashMap&lt;User, byte[]>();
+
+		for (User u : sharingParties) {
+			X509EncodedKeySpec ks = new X509EncodedKeySpec(u.getPublicKey());
+			KeyFactory kf = KeyFactory.getInstance(&quot;RSA&quot;);
+			PublicKey pub = kf.generatePublic(ks);
+
+			rsaCipher.init(Cipher.ENCRYPT_MODE, pub, rnd);
+			userEncryptionKeys.put(u, rsaCipher.doFinal(systemEncryptionKey.getEncoded()));
+		}
+
+		KeyFactory kf = KeyFactory.getInstance(&quot;RSA&quot;);
+		PublicKey sysKey = kf.generatePublic(new X509EncodedKeySpec(systemKey, &quot;RSA&quot;));
+		rsaCipher.init(Cipher.ENCRYPT_MODE, sysKey, rnd);
+		systemEncryptedKey = rsaCipher.doFinal(systemEncryptionKey.getEncoded());
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_azsvK9dtEeum65_6TcdgWw" name="decryptForUser" specification="_aydZANdtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_azsvLNdtEeum65_6TcdgWw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azsvLddtEeum65_6TcdgWw" name="key">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azsvLtdtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azsvL9dtEeum65_6TcdgWw" name="systemKey">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azsvMNdtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azsvMddtEeum65_6TcdgWw" type="_aya8wNdtEeum65_6TcdgWw" direction="return"/>
+          <language>java</language>
+          <body>PKCS8EncodedKeySpec ks = new PKCS8EncodedKeySpec(key);
+		KeyFactory kf = KeyFactory.getInstance(&quot;RSA&quot;);
+		PrivateKey priv = kf.generatePrivate(ks);
+
+		Cipher rsaCipher = Cipher.getInstance(&quot;RSA&quot;);
+		SecureRandom rnd = new SecureRandom();
+
+		ks = new PKCS8EncodedKeySpec(systemKey);
+		PrivateKey sysPriv = kf.generatePrivate(ks);
+
+		for (User u : userEncryptionKeys.keySet()) {
+			if (id.equals(u.getId())) {
+				rsaCipher.init(Cipher.DECRYPT_MODE, priv, rnd);
+				byte[] userDec = rsaCipher.doFinal(userEncryptionKeys.get(u));
+
+				rsaCipher.init(Cipher.DECRYPT_MODE, sysPriv, rnd);
+				byte[] sysDec = rsaCipher.doFinal(systemEncryptedKey);
+
+				if (Arrays.equals(userDec, sysDec)) {
+					// Keys match between system key and user key.
+					// Decrypt file.
+					Cipher cipher = Cipher.getInstance(&quot;AES/CBC/PKCS5Padding&quot;);
+					SecretKeySpec systemSymmKey = new SecretKeySpec(sysDec, &quot;AES&quot;);
+					IvParameterSpec spec = new IvParameterSpec(ivSpecBytes);
+					
+					cipher.init(Cipher.DECRYPT_MODE, systemSymmKey, spec);
+					
+					byte[] fileContents = cipher.doFinal(encryptedContents);
+
+					cipher.init(Cipher.DECRYPT_MODE, systemSymmKey, spec);
+					String name = new String(cipher.doFinal(encryptedOriginalName));
+					return new SharedFileContents(fileContents, name);
+				}
+			}
+		}
+
+		throw new GeneralSecurityException(&quot;A matching user could not be found, or encryption keys do not match.&quot;);
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_azsvMtdtEeum65_6TcdgWw" name="store" specification="_azkMQtdtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_azsvM9dtEeum65_6TcdgWw" name="outputDirectory" type="_azR4YNdtEeum65_6TcdgWw"/>
+          <ownedParameter xmi:id="_azsvNNdtEeum65_6TcdgWw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>File output = File.createTempFile(&quot;efs&quot;, &quot;.enc&quot;, outputDirectory);
+
+		ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(output));
+		oos.writeObject(this);
+		oos.flush();
+		oos.close();
+
+		return output.getCanonicalPath();
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aydZANdtEeum65_6TcdgWw" name="decryptForUser" method="_azsvK9dtEeum65_6TcdgWw" raisedException="_azTtkddtEeum65_6TcdgWw">
+          <ownedComment xmi:id="_azt9SNdtEeum65_6TcdgWw">
+            <body>Decrypt this EncryptedSharedFile for a given user.
+	 * 
+	 * @param id        the ID of the user to decrypt for.
+	 * @param key       the private key of the user.
+	 * @param systemKey the system encryption key.
+	 * @return a decrypted SharedFileContents instance.
+	 * @throws GeneralSecurityException in the event of cryptographic error or if
+	 *                                  the user encryption key cannot be accepted.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_aydZAddtEeum65_6TcdgWw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aydZAtdtEeum65_6TcdgWw" name="key">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aydZBNdtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aydZA9dtEeum65_6TcdgWw" name="systemKey">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ayeAEddtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azXX8ddtEeum65_6TcdgWw" type="_aya8wNdtEeum65_6TcdgWw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_azi-INdtEeum65_6TcdgWw" name="load" isStatic="true" method="_azsvINdtEeum65_6TcdgWw" raisedException="_azTGgddtEeum65_6TcdgWw">
+          <ownedComment xmi:id="_azt9RtdtEeum65_6TcdgWw">
+            <body>Load an EncryptedSharedFile from disk.
+	 * 
+	 * @param input the file to attempt to load from.
+	 * @return the EncryptedSharedFile instance.
+	 * @throws IOException in the event of IO errors or if the file doesn't contain
+	 *                     an EncryptedSharedFile.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_azi-IddtEeum65_6TcdgWw" name="input" type="_azR4YNdtEeum65_6TcdgWw"/>
+          <ownedParameter xmi:id="_azi-ItdtEeum65_6TcdgWw" type="_ayZuoNdtEeum65_6TcdgWw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_azjlMNdtEeum65_6TcdgWw" name="EncryptedSharedFile" method="_azsvI9dtEeum65_6TcdgWw" raisedException="_azTtkddtEeum65_6TcdgWw">
+          <eAnnotations xmi:id="_azjlNddtEeum65_6TcdgWw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_azjlNtdtEeum65_6TcdgWw" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_azt9R9dtEeum65_6TcdgWw">
+            <body>Standard constructor requiring the original file data.
+	 * 
+	 * @param filename       the original filename.
+	 * @param fileContents   the contents of the file to be encrypted.
+	 * @param sharingParties the details of the users sharing this file.
+	 * @param systemKey      the system (internal) encryption key.
+	 * @throws GeneralSecurityException in the event of a cryptography error.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_azjlMddtEeum65_6TcdgWw" name="filename">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azjlMtdtEeum65_6TcdgWw" name="fileContents">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azjlONdtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azjlM9dtEeum65_6TcdgWw" name="sharingParties" type="_azWJ0ddtEeum65_6TcdgWw"/>
+          <ownedParameter xmi:id="_azjlNNdtEeum65_6TcdgWw" name="systemKey">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azkMQddtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azjlN9dtEeum65_6TcdgWw" type="_ayZuoNdtEeum65_6TcdgWw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_azkMQtdtEeum65_6TcdgWw" name="store" method="_azsvMtdtEeum65_6TcdgWw" raisedException="_azTGgddtEeum65_6TcdgWw">
+          <ownedComment xmi:id="_azt9SddtEeum65_6TcdgWw">
+            <body>Store this EncryptedSharedFile to disk.
+	 * 
+	 * @param outputDirectory the directory the file is to be written to.
+	 * @return the path name to the file as saved.
+	 * @throws IOException in the event of any errors storing the object.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_azkMQ9dtEeum65_6TcdgWw" name="outputDirectory" type="_azR4YNdtEeum65_6TcdgWw"/>
+          <ownedParameter xmi:id="_azkMRNdtEeum65_6TcdgWw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <nestedClassifier xmi:type="uml:Class" xmi:id="_aya8wNdtEeum65_6TcdgWw" name="SharedFileContents">
+          <ownedAttribute xmi:id="_aznPktdtEeum65_6TcdgWw" name="contents" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aznPk9dtEeum65_6TcdgWw" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_azn2oddtEeum65_6TcdgWw" name="fileName" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_azsIENdtEeum65_6TcdgWw" name="SharedFileContents" specification="_aybj0NdtEeum65_6TcdgWw">
+            <ownedParameter xmi:id="_azsIEddtEeum65_6TcdgWw" name="contents">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azsIEtdtEeum65_6TcdgWw" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_azsIE9dtEeum65_6TcdgWw" name="fileName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_azsIFNdtEeum65_6TcdgWw" type="_aya8wNdtEeum65_6TcdgWw" direction="return"/>
+            <language>java</language>
+            <body>super();
+			this.contents = contents;
+			this.fileName = fileName;
+		</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_azsIFddtEeum65_6TcdgWw" name="getFileName" specification="_aycK5ddtEeum65_6TcdgWw">
+            <ownedParameter xmi:id="_azsIFtdtEeum65_6TcdgWw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return fileName;
+		</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_aybj0NdtEeum65_6TcdgWw" name="SharedFileContents" method="_azsIENdtEeum65_6TcdgWw">
+            <eAnnotations xmi:id="_aycK4ddtEeum65_6TcdgWw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_aycK4tdtEeum65_6TcdgWw" key="create"/>
+            </eAnnotations>
+            <ownedComment xmi:id="_azt9RNdtEeum65_6TcdgWw">
+              <body>@param contents
+		 * @param fileName</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_aybj0ddtEeum65_6TcdgWw" name="contents">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aycK5NdtEeum65_6TcdgWw" value="*"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_aycK4NdtEeum65_6TcdgWw" name="fileName">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_aycK49dtEeum65_6TcdgWw" type="_aya8wNdtEeum65_6TcdgWw" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_aycK5ddtEeum65_6TcdgWw" name="getFileName" method="_azsIFddtEeum65_6TcdgWw">
+            <ownedComment xmi:id="_azt9RddtEeum65_6TcdgWw">
+              <body>@return name of the files</body>
+            </ownedComment>
+            <ownedParameter xmi:id="_aycx8NdtEeum65_6TcdgWw" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </nestedClassifier>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ayf1QNdtEeum65_6TcdgWw" name="RSAGenerator">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_azsvNddtEeum65_6TcdgWw" name="main" specification="_aygcUNdtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_azsvNtdtEeum65_6TcdgWw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azsvN9dtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>KeyPairGenerator kg = KeyPairGenerator.getInstance(&quot;RSA&quot;);
+		
+		SecureRandom random = SecureRandom.getInstanceStrong();
+		kg.initialize(4096, random);
+
+		KeyPair pair = kg.generateKeyPair();
+		File priv = new File(&quot;/Users/ioann/private.rsa&quot;);
+		priv.createNewFile();
+		File pub = new File(&quot;/Users/ioann/public.rsa&quot;);
+		pub.createNewFile();
+		
+		Files.write(priv.toPath(), new PKCS8EncodedKeySpec(pair.getPrivate().getEncoded()).getEncoded());
+		Files.write(pub.toPath(), new X509EncodedKeySpec(pair.getPublic().getEncoded()).getEncoded());
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aygcUNdtEeum65_6TcdgWw" name="main" isStatic="true" method="_azsvNddtEeum65_6TcdgWw" raisedException="_azkzUddtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_aygcUddtEeum65_6TcdgWw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aygcUtdtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aygcU9dtEeum65_6TcdgWw" name="User">
+        <ownedComment xmi:id="_azt9StdtEeum65_6TcdgWw">
+          <body>@author Ioanna Pashalidi Kozelj - nnp18llf
+
+This class contains getter methods for user id and public key
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_azpEwNdtEeum65_6TcdgWw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_azpEwddtEeum65_6TcdgWw" value="589277442761251888L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_azpEwtdtEeum65_6TcdgWw" name="id" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_azpEw9dtEeum65_6TcdgWw" name="publicKey" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azpExNdtEeum65_6TcdgWw" value="*"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_azkzU9dtEeum65_6TcdgWw" client="_aygcU9dtEeum65_6TcdgWw" supplier="_azTGh9dtEeum65_6TcdgWw" contract="_azTGh9dtEeum65_6TcdgWw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_azsvONdtEeum65_6TcdgWw" name="User" specification="_ayhDYNdtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_azsvOddtEeum65_6TcdgWw" name="publicKey">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_azsvOtdtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azsvO9dtEeum65_6TcdgWw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azsvPNdtEeum65_6TcdgWw" type="_aygcU9dtEeum65_6TcdgWw" direction="return"/>
+          <language>java</language>
+          <body>super();
+		this.publicKey = publicKey;
+		this.id = id;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aztWMNdtEeum65_6TcdgWw" name="toString" specification="_ayhDaNdtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_aztWMddtEeum65_6TcdgWw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return String.format(&quot;%s: %s&quot;, id, Base64.getEncoder().encodeToString(publicKey));
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ayhDYNdtEeum65_6TcdgWw" name="User" method="_azsvONdtEeum65_6TcdgWw">
+          <eAnnotations xmi:id="_ayhDY9dtEeum65_6TcdgWw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ayhDZNdtEeum65_6TcdgWw" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_ayhDYddtEeum65_6TcdgWw" name="publicKey">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ayhDZtdtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ayhDYtdtEeum65_6TcdgWw" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_ayhDZddtEeum65_6TcdgWw" type="_aygcU9dtEeum65_6TcdgWw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ayhDaNdtEeum65_6TcdgWw" name="toString" method="_aztWMNdtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_ayhqcNdtEeum65_6TcdgWw" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azwZgNdtEeum65_6TcdgWw" name="" memberEnd="_azwZgddtEeum65_6TcdgWw _azodt9dtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azwZgddtEeum65_6TcdgWw" name="" type="_ayZuoNdtEeum65_6TcdgWw" association="_azwZgNdtEeum65_6TcdgWw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ayUPENdtEeum65_6TcdgWw" name="ui">
+      <packagedElement xmi:type="uml:Class" xmi:id="_ayhqdNdtEeum65_6TcdgWw" name="EncryptedFileShareApp">
+        <ownedComment xmi:id="_azt9S9dtEeum65_6TcdgWw">
+          <body>@author Ioanna Pashalidi Kozelj - nnp18llf
+
+GUI
+ *</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_azpr0NdtEeum65_6TcdgWw" name="frmEncryptedFileShare" visibility="private" type="_azc3gddtEeum65_6TcdgWw" association="_azxAkddtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azpr0tdtEeum65_6TcdgWw" name="listModel" visibility="private" type="_azcQc9dtEeum65_6TcdgWw" association="_azxAlNdtEeum65_6TcdgWw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_azpr1NdtEeum65_6TcdgWw" value="new DefaultListModel&lt;User>()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_azpr1tdtEeum65_6TcdgWw" name="file" visibility="private" type="_azR4YNdtEeum65_6TcdgWw" association="_azxnoNdtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azqS4ddtEeum65_6TcdgWw" name="textField_saveTo" visibility="private" type="_azeFoNdtEeum65_6TcdgWw" association="_azxno9dtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azqS49dtEeum65_6TcdgWw" name="textField_userID" visibility="private" type="_azeFoNdtEeum65_6TcdgWw" association="_azxnptdtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azqS5ddtEeum65_6TcdgWw" name="textField_lockerFile" visibility="private" type="_azeFoNdtEeum65_6TcdgWw" association="_azyOsNdtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azqS59dtEeum65_6TcdgWw" name="textField_privateKey" visibility="private" type="_azeFoNdtEeum65_6TcdgWw" association="_azyOs9dtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azq58NdtEeum65_6TcdgWw" name="textField_output" visibility="private" type="_azeFoNdtEeum65_6TcdgWw" association="_azyOttdtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azt9TNdtEeum65_6TcdgWw" name="outFile" visibility="private" type="_azR4YNdtEeum65_6TcdgWw" association="_azzc1NdtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azukUtdtEeum65_6TcdgWw" name="lockerFile" visibility="private" type="_azR4YNdtEeum65_6TcdgWw" association="_azzc19dtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azukVddtEeum65_6TcdgWw" name="keyFile" visibility="private" type="_azR4YNdtEeum65_6TcdgWw" association="_az0D4NdtEeum65_6TcdgWw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aztWMtdtEeum65_6TcdgWw" name="main" specification="_ayiRgNdtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_aztWM9dtEeum65_6TcdgWw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aztWNNdtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					EncryptedFileShareApp window = new EncryptedFileShareApp();
+					window.frmEncryptedFileShare.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aztWNddtEeum65_6TcdgWw" name="EncryptedFileShareApp" specification="_ayi4kddtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_aztWNtdtEeum65_6TcdgWw" type="_ayhqdNdtEeum65_6TcdgWw" direction="return"/>
+          <language>java</language>
+          <body>initialise();
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aztWN9dtEeum65_6TcdgWw" name="initialise" specification="_ayi4lddtEeum65_6TcdgWw">
+          <language>java</language>
+          <body>frmEncryptedFileShare = new JFrame();
+		frmEncryptedFileShare.setTitle(&quot;Encrypted File Share&quot;);
+		frmEncryptedFileShare.setBounds(100, 100, 474, 300);
+		frmEncryptedFileShare.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
+		frmEncryptedFileShare.getContentPane().add(tabbedPane, BorderLayout.CENTER);
+
+		// Share new file tabbed pane 
+		JPanel sharePanel = new JPanel();
+		tabbedPane.addTab(&quot;Share a New File&quot;, null, sharePanel, null);
+		GridBagLayout gbl_sharePanel = new GridBagLayout();
+		gbl_sharePanel.columnWidths = new int[] { 0, 0, 0 };
+		gbl_sharePanel.rowHeights = new int[] { 0, 0, 0, 0, 0 };
+		gbl_sharePanel.columnWeights = new double[] { 0.0, 1.0, Double.MIN_VALUE };
+		gbl_sharePanel.rowWeights = new double[] { 0.0, 1.0, 0.0, 0.0, Double.MIN_VALUE };
+		sharePanel.setLayout(gbl_sharePanel);
+
+		JLabel fileToShareLabel = new JLabel(&quot;File to Share:&quot;);
+		GridBagConstraints gbc_fileToShareLabel = new GridBagConstraints();
+		gbc_fileToShareLabel.insets = new Insets(0, 0, 5, 5);
+		gbc_fileToShareLabel.anchor = GridBagConstraints.EAST;
+		gbc_fileToShareLabel.gridx = 0;
+		gbc_fileToShareLabel.gridy = 0;
+		sharePanel.add(fileToShareLabel, gbc_fileToShareLabel);
+
+		JPanel panelFileToShare = new JPanel();
+		GridBagConstraints gbc_panelFileToShare = new GridBagConstraints();
+		gbc_panelFileToShare.insets = new Insets(0, 0, 5, 0);
+		gbc_panelFileToShare.fill = GridBagConstraints.BOTH;
+		gbc_panelFileToShare.gridx = 1;
+		gbc_panelFileToShare.gridy = 0;
+		sharePanel.add(panelFileToShare, gbc_panelFileToShare);
+		GridBagLayout gbl_panelFileToShare = new GridBagLayout();
+		gbl_panelFileToShare.columnWidths = new int[] { 0, 0, 0 };
+		gbl_panelFileToShare.rowHeights = new int[] { 0, 0 };
+		gbl_panelFileToShare.columnWeights = new double[] { 1.0, 0.0, Double.MIN_VALUE };
+		gbl_panelFileToShare.rowWeights = new double[] { 0.0, Double.MIN_VALUE };
+		panelFileToShare.setLayout(gbl_panelFileToShare);
+
+		JTextField textField_fileToShare = new JTextField();
+		textField_fileToShare.setEditable(false);
+		GridBagConstraints gbc_textField_fileToShare = new GridBagConstraints();
+		gbc_textField_fileToShare.insets = new Insets(0, 0, 0, 5);
+		gbc_textField_fileToShare.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textField_fileToShare.gridx = 0;
+		gbc_textField_fileToShare.gridy = 0;
+		panelFileToShare.add(textField_fileToShare, gbc_textField_fileToShare);
+		textField_fileToShare.setColumns(255);
+
+		JButton btnFileToShare = new JButton(&quot;...&quot;);
+		btnFileToShare.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				file = fileChooser(false);
+				if (file != null)
+					textField_fileToShare.setText(file.getAbsolutePath());
+				else
+					textField_fileToShare.setText(&quot;&quot;);
+			}
+		});
+		btnFileToShare.setToolTipText(&quot;Select a file.&quot;);
+		GridBagConstraints gbc_btnFileToShare = new GridBagConstraints();
+		gbc_btnFileToShare.gridx = 1;
+		gbc_btnFileToShare.gridy = 0;
+		panelFileToShare.add(btnFileToShare, gbc_btnFileToShare);
+
+		JLabel shareWithLabel = new JLabel(&quot;Share with:&quot;);
+		GridBagConstraints gbc_shareWithLabel = new GridBagConstraints();
+		gbc_shareWithLabel.anchor = GridBagConstraints.NORTHEAST;
+		gbc_shareWithLabel.insets = new Insets(0, 0, 5, 5);
+		gbc_shareWithLabel.gridx = 0;
+		gbc_shareWithLabel.gridy = 1;
+		sharePanel.add(shareWithLabel, gbc_shareWithLabel);
+
+		JPanel panelShareWith = new JPanel();
+		GridBagConstraints gbc_panelShareWith = new GridBagConstraints();
+		gbc_panelShareWith.insets = new Insets(0, 0, 5, 0);
+		gbc_panelShareWith.fill = GridBagConstraints.BOTH;
+		gbc_panelShareWith.gridx = 1;
+		gbc_panelShareWith.gridy = 1;
+		sharePanel.add(panelShareWith, gbc_panelShareWith);
+		GridBagLayout gbl_panelShareWith = new GridBagLayout();
+		gbl_panelShareWith.columnWidths = new int[] { 171, 0 };
+		gbl_panelShareWith.rowHeights = new int[] { 1, 0, 0 };
+		gbl_panelShareWith.columnWeights = new double[] { 1.0, 0.0 };
+		gbl_panelShareWith.rowWeights = new double[] { 0.0, 1.0, Double.MIN_VALUE };
+		panelShareWith.setLayout(gbl_panelShareWith);
+
+		JList&lt;User> list = new JList&lt;User>(listModel);
+		list.setBorder(new LineBorder(new Color(0, 0, 0)));
+		GridBagConstraints gbc_list = new GridBagConstraints();
+		gbc_list.gridheight = 2;
+		gbc_list.insets = new Insets(0, 0, 0, 5);
+		gbc_list.fill = GridBagConstraints.BOTH;
+		gbc_list.gridx = 0;
+		gbc_list.gridy = 0;
+		panelShareWith.add(list, gbc_list);
+
+		JButton btnAdd = new JButton(&quot;Add..&quot;);
+		btnAdd.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				NewUserDialog newDialog = new NewUserDialog();
+				newDialog.setModal(true);
+				newDialog.setVisible(true);
+				if (newDialog.getUserDetails() != null) {
+					listModel.addElement(newDialog.getUserDetails());
+				}
+			}
+		});
+		GridBagConstraints gbc_btnAdd = new GridBagConstraints();
+		gbc_btnAdd.fill = GridBagConstraints.HORIZONTAL;
+		gbc_btnAdd.anchor = GridBagConstraints.NORTH;
+		gbc_btnAdd.insets = new Insets(0, 0, 5, 5);
+		gbc_btnAdd.gridx = 1;
+		gbc_btnAdd.gridy = 0;
+		panelShareWith.add(btnAdd, gbc_btnAdd);
+
+		JButton btnRemove = new JButton(&quot;Remove...&quot;);
+		btnRemove.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				if (list.getSelectedIndex() != -1) {
+					int retVal = JOptionPane.showConfirmDialog(frmEncryptedFileShare, &quot;Are you sure?&quot;, &quot;Remove Sharer&quot;,
+							YES_NO_OPTION);
+					if (retVal == YES_OPTION)
+						listModel.remove(list.getSelectedIndex());
+				}
+			}
+		});
+		GridBagConstraints gbc_btnRemove = new GridBagConstraints();
+		gbc_btnRemove.fill = GridBagConstraints.HORIZONTAL;
+		gbc_btnRemove.insets = new Insets(0, 0, 0, 5);
+		gbc_btnRemove.anchor = GridBagConstraints.NORTH;
+		gbc_btnRemove.gridx = 1;
+		gbc_btnRemove.gridy = 1;
+		panelShareWith.add(btnRemove, gbc_btnRemove);
+
+		JButton buttonShare = new JButton(&quot;Share...&quot;);
+		buttonShare.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				try {
+					byte[] pub = EncryptedFileShareApp.class.getResourceAsStream(&quot;/encryption/public.rsa&quot;)
+							.readAllBytes();
+
+					EncryptedSharedFile newFile = new EncryptedSharedFile(file.getName(),
+							Files.readAllBytes(file.toPath()), Collections.list(listModel.elements()), pub);
+
+					String file = newFile.store(outFile);
+					JOptionPane.showMessageDialog(frmEncryptedFileShare,
+							&quot;Your shared file has been encrypted to &quot; + file + &quot;.&quot;, &quot;Success&quot;,
+							INFORMATION_MESSAGE);
+				} catch (Exception ex) {
+					ex.printStackTrace();
+				}
+			}
+		});
+
+		JLabel saveToLabel = new JLabel(&quot;Save To:&quot;);
+		GridBagConstraints gbc_saveToLabel = new GridBagConstraints();
+		gbc_saveToLabel.anchor = GridBagConstraints.EAST;
+		gbc_saveToLabel.insets = new Insets(0, 0, 5, 5);
+		gbc_saveToLabel.gridx = 0;
+		gbc_saveToLabel.gridy = 2;
+		sharePanel.add(saveToLabel, gbc_saveToLabel);
+
+		JPanel panelSaveTo = new JPanel();
+		GridBagConstraints gbc_panelSaveTo = new GridBagConstraints();
+		gbc_panelSaveTo.insets = new Insets(0, 0, 5, 0);
+		gbc_panelSaveTo.fill = GridBagConstraints.BOTH;
+		gbc_panelSaveTo.gridx = 1;
+		gbc_panelSaveTo.gridy = 2;
+		sharePanel.add(panelSaveTo, gbc_panelSaveTo);
+		GridBagLayout gbl_panelSaveTo = new GridBagLayout();
+		gbl_panelSaveTo.columnWidths = new int[] { 0, 0, 0 };
+		gbl_panelSaveTo.rowHeights = new int[] { 0, 0 };
+		gbl_panelSaveTo.columnWeights = new double[] { 1.0, 0.0, Double.MIN_VALUE };
+		gbl_panelSaveTo.rowWeights = new double[] { 0.0, Double.MIN_VALUE };
+		panelSaveTo.setLayout(gbl_panelSaveTo);
+
+		textField_saveTo = new JTextField();
+		textField_saveTo.setEditable(false);
+		textField_saveTo.setColumns(255);
+		GridBagConstraints gbc_textField_saveTo = new GridBagConstraints();
+		gbc_textField_saveTo.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textField_saveTo.insets = new Insets(0, 0, 0, 5);
+		gbc_textField_saveTo.gridx = 0;
+		gbc_textField_saveTo.gridy = 0;
+		panelSaveTo.add(textField_saveTo, gbc_textField_saveTo);
+
+		JButton btnSaveTo = new JButton(&quot;...&quot;);
+		btnSaveTo.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				outFile = fileChooser(true);
+				if (outFile != null)
+					textField_saveTo.setText(outFile.getAbsolutePath());
+				else
+					textField_saveTo.setText(&quot;&quot;);
+			}
+		});
+		btnSaveTo.setToolTipText(&quot;Select a file.&quot;);
+		GridBagConstraints gbc_btnSaveTo = new GridBagConstraints();
+		gbc_btnSaveTo.gridx = 1;
+		gbc_btnSaveTo.gridy = 0;
+		panelSaveTo.add(btnSaveTo, gbc_btnSaveTo);
+		GridBagConstraints gbc_buttonShare = new GridBagConstraints();
+		gbc_buttonShare.anchor = GridBagConstraints.WEST;
+		gbc_buttonShare.gridx = 1;
+		gbc_buttonShare.gridy = 3;
+		sharePanel.add(buttonShare, gbc_buttonShare);
+
+		
+		// unlock file tab pane
+		JPanel unlockPanel = new JPanel();
+		tabbedPane.addTab(&quot;Unlock a File&quot;, null, unlockPanel, null);
+		GridBagLayout gbl_unlockPanel = new GridBagLayout();
+		gbl_unlockPanel.columnWidths = new int[] { 0, 0, 0 };
+		gbl_unlockPanel.rowHeights = new int[] { 0, 0, 0, 0, 0, 0 };
+		gbl_unlockPanel.columnWeights = new double[] { 0.0, 1.0, Double.MIN_VALUE };
+		gbl_unlockPanel.rowWeights = new double[] { 0.0, 0.0, 0.0, 0.0, 0.0, Double.MIN_VALUE };
+		unlockPanel.setLayout(gbl_unlockPanel);
+
+		JLabel lockerFileLabel = new JLabel(&quot;Locker File:&quot;);
+		GridBagConstraints gbc_lockerFileLabel = new GridBagConstraints();
+		gbc_lockerFileLabel.anchor = GridBagConstraints.EAST;
+		gbc_lockerFileLabel.insets = new Insets(0, 0, 5, 5);
+		gbc_lockerFileLabel.gridx = 0;
+		gbc_lockerFileLabel.gridy = 0;
+		unlockPanel.add(lockerFileLabel, gbc_lockerFileLabel);
+
+		JPanel panel_LockerFile = new JPanel();
+		GridBagConstraints gbc_panel_LockerFile = new GridBagConstraints();
+		gbc_panel_LockerFile.insets = new Insets(0, 0, 5, 0);
+		gbc_panel_LockerFile.fill = GridBagConstraints.BOTH;
+		gbc_panel_LockerFile.gridx = 1;
+		gbc_panel_LockerFile.gridy = 0;
+		unlockPanel.add(panel_LockerFile, gbc_panel_LockerFile);
+		GridBagLayout gbl_panel_LockerFile = new GridBagLayout();
+		gbl_panel_LockerFile.columnWidths = new int[] { 0, 0, 0 };
+		gbl_panel_LockerFile.rowHeights = new int[] { 0, 0 };
+		gbl_panel_LockerFile.columnWeights = new double[] { 1.0, 0.0, Double.MIN_VALUE };
+		gbl_panel_LockerFile.rowWeights = new double[] { 0.0, Double.MIN_VALUE };
+		panel_LockerFile.setLayout(gbl_panel_LockerFile);
+
+		textField_lockerFile = new JTextField();
+		GridBagConstraints gbc_textField_lockerFile = new GridBagConstraints();
+		gbc_textField_lockerFile.insets = new Insets(0, 0, 0, 5);
+		gbc_textField_lockerFile.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textField_lockerFile.gridx = 0;
+		gbc_textField_lockerFile.gridy = 0;
+		panel_LockerFile.add(textField_lockerFile, gbc_textField_lockerFile);
+		textField_lockerFile.setColumns(10);
+
+		JButton btnLockerFile = new JButton(&quot;...&quot;);
+		btnLockerFile.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				lockerFile = fileChooser(false);
+				if (lockerFile != null)
+					textField_lockerFile.setText(lockerFile.getAbsolutePath());
+				else
+					textField_lockerFile.setText(&quot;&quot;);
+			}
+		});
+		GridBagConstraints gbc_btnLockerFile = new GridBagConstraints();
+		gbc_btnLockerFile.gridx = 1;
+		gbc_btnLockerFile.gridy = 0;
+		panel_LockerFile.add(btnLockerFile, gbc_btnLockerFile);
+
+		JLabel userIDLabel = new JLabel(&quot;User ID:&quot;);
+		GridBagConstraints gbc_userIDLabel = new GridBagConstraints();
+		gbc_userIDLabel.insets = new Insets(0, 0, 5, 5);
+		gbc_userIDLabel.anchor = GridBagConstraints.EAST;
+		gbc_userIDLabel.gridx = 0;
+		gbc_userIDLabel.gridy = 1;
+		unlockPanel.add(userIDLabel, gbc_userIDLabel);
+
+		textField_userID = new JTextField();
+		GridBagConstraints gbc_textField_userID = new GridBagConstraints();
+		gbc_textField_userID.insets = new Insets(0, 0, 5, 0);
+		gbc_textField_userID.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textField_userID.gridx = 1;
+		gbc_textField_userID.gridy = 1;
+		unlockPanel.add(textField_userID, gbc_textField_userID);
+		textField_userID.setColumns(10);
+
+		JLabel privateKeyLabel = new JLabel(&quot;Private Key File:&quot;);
+		GridBagConstraints gbc_privateKeyLabel = new GridBagConstraints();
+		gbc_privateKeyLabel.insets = new Insets(0, 0, 5, 5);
+		gbc_privateKeyLabel.gridx = 0;
+		gbc_privateKeyLabel.gridy = 2;
+		unlockPanel.add(privateKeyLabel, gbc_privateKeyLabel);
+
+		JPanel panelPrivateKey = new JPanel();
+		GridBagConstraints gbc_panelPrivateKey = new GridBagConstraints();
+		gbc_panelPrivateKey.insets = new Insets(0, 0, 5, 0);
+		gbc_panelPrivateKey.fill = GridBagConstraints.BOTH;
+		gbc_panelPrivateKey.gridx = 1;
+		gbc_panelPrivateKey.gridy = 2;
+		unlockPanel.add(panelPrivateKey, gbc_panelPrivateKey);
+		GridBagLayout gbl_panelPrivateKey = new GridBagLayout();
+		gbl_panelPrivateKey.columnWidths = new int[] { 0, 0, 0 };
+		gbl_panelPrivateKey.rowHeights = new int[] { 0, 0 };
+		gbl_panelPrivateKey.columnWeights = new double[] { 1.0, 0.0, Double.MIN_VALUE };
+		gbl_panelPrivateKey.rowWeights = new double[] { 0.0, Double.MIN_VALUE };
+		panelPrivateKey.setLayout(gbl_panelPrivateKey);
+
+		textField_privateKey = new JTextField();
+		textField_privateKey.setColumns(10);
+		GridBagConstraints gbc_textField_privateKey = new GridBagConstraints();
+		gbc_textField_privateKey.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textField_privateKey.insets = new Insets(0, 0, 0, 5);
+		gbc_textField_privateKey.gridx = 0;
+		gbc_textField_privateKey.gridy = 0;
+		panelPrivateKey.add(textField_privateKey, gbc_textField_privateKey);
+
+		JButton btnPrivateKey = new JButton(&quot;...&quot;);
+		btnPrivateKey.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				keyFile = fileChooser(false);
+				if (keyFile != null)
+					textField_privateKey.setText(keyFile.getAbsolutePath());
+				else
+					textField_privateKey.setText(&quot;&quot;);
+			}
+		});
+		GridBagConstraints gbc_btnPrivateKey = new GridBagConstraints();
+		gbc_btnPrivateKey.gridx = 1;
+		gbc_btnPrivateKey.gridy = 0;
+		panelPrivateKey.add(btnPrivateKey, gbc_btnPrivateKey);
+
+		JLabel outputLabel = new JLabel(&quot;Output To:&quot;);
+		GridBagConstraints gbc_outputLabel = new GridBagConstraints();
+		gbc_outputLabel.anchor = GridBagConstraints.EAST;
+		gbc_outputLabel.insets = new Insets(0, 0, 5, 5);
+		gbc_outputLabel.gridx = 0;
+		gbc_outputLabel.gridy = 3;
+		unlockPanel.add(outputLabel, gbc_outputLabel);
+
+		JPanel panelOutput = new JPanel();
+		GridBagConstraints gbc_panelOutput = new GridBagConstraints();
+		gbc_panelOutput.insets = new Insets(0, 0, 5, 0);
+		gbc_panelOutput.fill = GridBagConstraints.BOTH;
+		gbc_panelOutput.gridx = 1;
+		gbc_panelOutput.gridy = 3;
+		unlockPanel.add(panelOutput, gbc_panelOutput);
+		GridBagLayout gbl_panelOutput = new GridBagLayout();
+		gbl_panelOutput.columnWidths = new int[] { 0, 0, 0 };
+		gbl_panelOutput.rowHeights = new int[] { 0, 0 };
+		gbl_panelOutput.columnWeights = new double[] { 1.0, 0.0, Double.MIN_VALUE };
+		gbl_panelOutput.rowWeights = new double[] { 0.0, Double.MIN_VALUE };
+		panelOutput.setLayout(gbl_panelOutput);
+
+		textField_output = new JTextField();
+		textField_output.setColumns(10);
+		GridBagConstraints gbc_textField_output = new GridBagConstraints();
+		gbc_textField_output.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textField_output.insets = new Insets(0, 0, 0, 5);
+		gbc_textField_output.gridx = 0;
+		gbc_textField_output.gridy = 0;
+		panelOutput.add(textField_output, gbc_textField_output);
+
+		JButton btnOutput = new JButton(&quot;...&quot;);
+		btnOutput.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				outFile = fileChooser(true);
+				if (outFile != null)
+					textField_output.setText(outFile.getAbsolutePath());
+				else
+					textField_output.setText(&quot;&quot;);
+			}
+		});
+		GridBagConstraints gbc_btnOutput = new GridBagConstraints();
+		gbc_btnOutput.gridx = 1;
+		gbc_btnOutput.gridy = 0;
+		panelOutput.add(btnOutput, gbc_btnOutput);
+
+		JButton btnUnlock = new JButton(&quot;Unlock&quot;);
+		btnUnlock.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				try {
+					EncryptedSharedFile sharedFile = EncryptedSharedFile.load(lockerFile);
+					byte[] key = Files.readAllBytes(keyFile.toPath());
+
+					byte[] priv = EncryptedFileShareApp.class.getResourceAsStream(&quot;/encryption/private.rsa&quot;)
+							.readAllBytes();
+
+					SharedFileContents contents = sharedFile.decryptForUser(textField_userID.getText(), key, priv);
+					File output = new File(outFile, contents.getFileName());
+					FileOutputStream fos = new FileOutputStream(output);
+					fos.write(contents.getContents());
+					fos.flush();
+					fos.close();
+					JOptionPane.showMessageDialog(frmEncryptedFileShare,
+							&quot;Your shared file has been decrypted to &quot; + output.getAbsolutePath() + &quot;.&quot;, &quot;Success&quot;,
+							INFORMATION_MESSAGE);
+				} catch (Exception e1) {
+					JOptionPane.showMessageDialog(frmEncryptedFileShare, e1.getMessage(), &quot;Unlock Error&quot;,
+							ERROR_MESSAGE);
+				}
+			}
+		});
+		GridBagConstraints gbc_btnUnlock = new GridBagConstraints();
+		gbc_btnUnlock.anchor = GridBagConstraints.WEST;
+		gbc_btnUnlock.gridx = 1;
+		gbc_btnUnlock.gridy = 4;
+		unlockPanel.add(btnUnlock, gbc_btnUnlock);
+
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aztWONdtEeum65_6TcdgWw" name="fileChooser" specification="_ayi4ltdtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_aztWOddtEeum65_6TcdgWw" name="directoriesOnly">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aztWOtdtEeum65_6TcdgWw" type="_azR4YNdtEeum65_6TcdgWw" direction="return"/>
+          <language>java</language>
+          <body>JFileChooser fileChoice = new JFileChooser();
+		if (directoriesOnly)
+			fileChoice.setFileSelectionMode(DIRECTORIES_ONLY);
+
+		int returnVal = fileChoice.showOpenDialog(frmEncryptedFileShare);
+		if (returnVal == APPROVE_OPTION) {
+			return fileChoice.getSelectedFile();
+		}
+
+		return null;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ayiRgNdtEeum65_6TcdgWw" name="main" isStatic="true" method="_aztWMtdtEeum65_6TcdgWw">
+          <ownedComment xmi:id="_azukWNdtEeum65_6TcdgWw">
+            <body>Launch the application.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ayiRgddtEeum65_6TcdgWw" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ayiRgtdtEeum65_6TcdgWw" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ayi4kddtEeum65_6TcdgWw" name="EncryptedFileShareApp" method="_aztWNddtEeum65_6TcdgWw">
+          <eAnnotations xmi:id="_ayi4ktdtEeum65_6TcdgWw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ayi4k9dtEeum65_6TcdgWw" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_azukWddtEeum65_6TcdgWw">
+            <body>Create the application.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ayi4lNdtEeum65_6TcdgWw" type="_ayhqdNdtEeum65_6TcdgWw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ayi4lddtEeum65_6TcdgWw" name="initialise" visibility="private" method="_aztWN9dtEeum65_6TcdgWw">
+          <ownedComment xmi:id="_azukWtdtEeum65_6TcdgWw">
+            <body>Initialise the contents of the frame.</body>
+          </ownedComment>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ayi4ltdtEeum65_6TcdgWw" name="fileChooser" visibility="private" method="_aztWONdtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_ayi4l9dtEeum65_6TcdgWw" name="directoriesOnly">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_azmBcNdtEeum65_6TcdgWw" type="_azR4YNdtEeum65_6TcdgWw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ayktwNdtEeum65_6TcdgWw" name="NewUserDialog">
+        <ownedComment xmi:id="_azukW9dtEeum65_6TcdgWw">
+          <body>@author Ioanna Pashalidi Kozelj - nnp18llf
+
+prompts user to get the details of the sharing user
+ *</body>
+        </ownedComment>
+        <generalization xmi:id="_azmogNdtEeum65_6TcdgWw" general="_azf60ddtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azq58tdtEeum65_6TcdgWw" name="serialVersionUID" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_azq589dtEeum65_6TcdgWw" value="8756358888866345456L"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_azq59NdtEeum65_6TcdgWw" name="contentPanel" visibility="private" isLeaf="true" type="_azdektdtEeum65_6TcdgWw" isReadOnly="true" association="_azyOuddtEeum65_6TcdgWw">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_azq59ddtEeum65_6TcdgWw" value="new JPanel()"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_azq599dtEeum65_6TcdgWw" name="textField_userID" visibility="private" type="_azeFoNdtEeum65_6TcdgWw" association="_azy1wddtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azrhAddtEeum65_6TcdgWw" name="textField_publicKey" visibility="private" type="_azeFoNdtEeum65_6TcdgWw" association="_azy1xNdtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azrhA9dtEeum65_6TcdgWw" name="user" visibility="private" type="_aygcU9dtEeum65_6TcdgWw" association="_azy1x9dtEeum65_6TcdgWw"/>
+        <ownedAttribute xmi:id="_azrhBddtEeum65_6TcdgWw" name="file" visibility="private" type="_azR4YNdtEeum65_6TcdgWw" association="_azzc0ddtEeum65_6TcdgWw"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aztWO9dtEeum65_6TcdgWw" name="NewUserDialog" specification="_ayktwddtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_azt9QNdtEeum65_6TcdgWw" type="_ayktwNdtEeum65_6TcdgWw" direction="return"/>
+          <language>java</language>
+          <body>setTitle(&quot;Add New User to Share&quot;);
+		setBounds(100, 100, 450, 300);
+		getContentPane().setLayout(new BorderLayout());
+		contentPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
+		getContentPane().add(contentPanel, BorderLayout.CENTER);
+		GridBagLayout gbl_contentPanel = new GridBagLayout();
+		gbl_contentPanel.columnWidths = new int[]{0, 0, 0};
+		gbl_contentPanel.rowHeights = new int[]{0, 0, 0, 0, 0};
+		gbl_contentPanel.columnWeights = new double[]{0.0, 1.0, Double.MIN_VALUE};
+		gbl_contentPanel.rowWeights = new double[]{1.0, 0.0, 0.0, 1.0, Double.MIN_VALUE};
+		contentPanel.setLayout(gbl_contentPanel);
+		{
+			JLabel userLabel = new JLabel(&quot;User ID:&quot;);
+			GridBagConstraints gbc_userLabel = new GridBagConstraints();
+			gbc_userLabel.anchor = GridBagConstraints.EAST;
+			gbc_userLabel.insets = new Insets(0, 0, 5, 5);
+			gbc_userLabel.gridx = 0;
+			gbc_userLabel.gridy = 1;
+			contentPanel.add(userLabel, gbc_userLabel);
+		}
+		{
+			textField_userID = new JTextField();
+			GridBagConstraints gbc_textField_userID = new GridBagConstraints();
+			gbc_textField_userID.anchor = GridBagConstraints.SOUTH;
+			gbc_textField_userID.insets = new Insets(0, 0, 5, 0);
+			gbc_textField_userID.fill = GridBagConstraints.HORIZONTAL;
+			gbc_textField_userID.gridx = 1;
+			gbc_textField_userID.gridy = 1;
+			contentPanel.add(textField_userID, gbc_textField_userID);
+			textField_userID.setColumns(10);
+		}
+		{
+			JLabel publicKeyLabel = new JLabel(&quot;Public Key File:&quot;);
+			GridBagConstraints gbc_publicKeyLabel = new GridBagConstraints();
+			gbc_publicKeyLabel.anchor = GridBagConstraints.EAST;
+			gbc_publicKeyLabel.insets = new Insets(0, 0, 5, 5);
+			gbc_publicKeyLabel.gridx = 0;
+			gbc_publicKeyLabel.gridy = 2;
+			contentPanel.add(publicKeyLabel, gbc_publicKeyLabel);
+		}
+		{
+			JPanel panel = new JPanel();
+			GridBagConstraints gbc_panel = new GridBagConstraints();
+			gbc_panel.insets = new Insets(0, 0, 5, 0);
+			gbc_panel.fill = GridBagConstraints.BOTH;
+			gbc_panel.gridx = 1;
+			gbc_panel.gridy = 2;
+			contentPanel.add(panel, gbc_panel);
+			GridBagLayout gbl_panel = new GridBagLayout();
+			gbl_panel.columnWidths = new int[]{0, 0, 0};
+			gbl_panel.rowHeights = new int[]{0, 0};
+			gbl_panel.columnWeights = new double[]{1.0, 0.0, Double.MIN_VALUE};
+			gbl_panel.rowWeights = new double[]{0.0, Double.MIN_VALUE};
+			panel.setLayout(gbl_panel);
+			{
+				textField_publicKey = new JTextField();
+				GridBagConstraints gbc_textField_publicKey = new GridBagConstraints();
+				gbc_textField_publicKey.insets = new Insets(0, 0, 0, 5);
+				gbc_textField_publicKey.fill = GridBagConstraints.HORIZONTAL;
+				gbc_textField_publicKey.gridx = 0;
+				gbc_textField_publicKey.gridy = 0;
+				panel.add(textField_publicKey, gbc_textField_publicKey);
+				textField_publicKey.setColumns(10);
+			}
+			{
+				JButton btnPublicKey = new JButton(&quot;...&quot;);
+				btnPublicKey.addActionListener(new ActionListener() {
+					public void actionPerformed(ActionEvent e) {
+						JFileChooser fileChoice = new JFileChooser();
+						if (file != null) {
+							fileChoice.setCurrentDirectory(file.getParentFile());
+						}
+						int returnVal = fileChoice.showOpenDialog(NewUserDialog.this);
+					    if(returnVal == APPROVE_OPTION) {
+					    	file = fileChoice.getSelectedFile();
+					    	textField_publicKey.setText(file.getAbsolutePath());
+					    }
+					}
+				});
+				GridBagConstraints gbc_btnPublicKey = new GridBagConstraints();
+				gbc_btnPublicKey.gridx = 1;
+				gbc_btnPublicKey.gridy = 0;
+				panel.add(btnPublicKey, gbc_btnPublicKey);
+			}
+		}
+		{
+			JPanel buttonPane = new JPanel();
+			buttonPane.setLayout(new FlowLayout(FlowLayout.RIGHT));
+			getContentPane().add(buttonPane, BorderLayout.SOUTH);
+			{
+				JButton okButton = new JButton(&quot;OK&quot;);
+				okButton.addActionListener(new ActionListener() {
+					public void actionPerformed(ActionEvent e) {
+						try {
+							user = new User(Files.readAllBytes(file.toPath()),
+									textField_userID.getText());
+							
+							NewUserDialog.this.setVisible(false);
+						} catch (IOException e1) {
+							JOptionPane.showMessageDialog(null, &quot;An error occurred reading the file.&quot;, &quot;Error&quot;, ERROR_MESSAGE);
+							return;
+						}
+					}
+				});
+				buttonPane.add(okButton);
+				getRootPane().setDefaultButton(okButton);
+			}
+			{
+				JButton cancelButton = new JButton(&quot;Cancel&quot;);
+				cancelButton.addActionListener(new ActionListener() {
+					public void actionPerformed(ActionEvent e) {
+						user = null;
+						NewUserDialog.this.setVisible(false);
+					}
+				});
+				cancelButton.setActionCommand(&quot;Cancel&quot;);
+				buttonPane.add(cancelButton);
+			}
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_azt9QddtEeum65_6TcdgWw" name="getUserDetails" specification="_ayl74tdtEeum65_6TcdgWw">
+          <ownedParameter xmi:id="_azt9QtdtEeum65_6TcdgWw" type="_aygcU9dtEeum65_6TcdgWw" direction="return"/>
+          <language>java</language>
+          <body>return user;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_ayktwddtEeum65_6TcdgWw" name="NewUserDialog" method="_aztWO9dtEeum65_6TcdgWw">
+          <eAnnotations xmi:id="_ayktwtdtEeum65_6TcdgWw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_ayl74NdtEeum65_6TcdgWw" key="create"/>
+          </eAnnotations>
+          <ownedComment xmi:id="_azukXNdtEeum65_6TcdgWw">
+            <body>Create the dialog.</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_ayl74ddtEeum65_6TcdgWw" type="_ayktwNdtEeum65_6TcdgWw" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ayl74tdtEeum65_6TcdgWw" name="getUserDetails" method="_azt9QddtEeum65_6TcdgWw">
+          <ownedComment xmi:id="_azukXddtEeum65_6TcdgWw">
+            <body>@return user details</body>
+          </ownedComment>
+          <ownedParameter xmi:id="_azgh4ddtEeum65_6TcdgWw" type="_aygcU9dtEeum65_6TcdgWw" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azxAkddtEeum65_6TcdgWw" name="" memberEnd="_azxAktdtEeum65_6TcdgWw _azpr0NdtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azxAktdtEeum65_6TcdgWw" name="" type="_ayhqdNdtEeum65_6TcdgWw" association="_azxAkddtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azxAlNdtEeum65_6TcdgWw" name="" memberEnd="_azxAlddtEeum65_6TcdgWw _azpr0tdtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azxAlddtEeum65_6TcdgWw" name="" type="_ayhqdNdtEeum65_6TcdgWw" association="_azxAlNdtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azxnoNdtEeum65_6TcdgWw" name="" memberEnd="_azxnoddtEeum65_6TcdgWw _azpr1tdtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azxnoddtEeum65_6TcdgWw" name="" type="_ayhqdNdtEeum65_6TcdgWw" association="_azxnoNdtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azxno9dtEeum65_6TcdgWw" name="" memberEnd="_azxnpNdtEeum65_6TcdgWw _azqS4ddtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azxnpNdtEeum65_6TcdgWw" name="" type="_ayhqdNdtEeum65_6TcdgWw" association="_azxno9dtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azxnptdtEeum65_6TcdgWw" name="" memberEnd="_azxnp9dtEeum65_6TcdgWw _azqS49dtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azxnp9dtEeum65_6TcdgWw" name="" type="_ayhqdNdtEeum65_6TcdgWw" association="_azxnptdtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azyOsNdtEeum65_6TcdgWw" name="" memberEnd="_azyOsddtEeum65_6TcdgWw _azqS5ddtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azyOsddtEeum65_6TcdgWw" name="" type="_ayhqdNdtEeum65_6TcdgWw" association="_azyOsNdtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azyOs9dtEeum65_6TcdgWw" name="" memberEnd="_azyOtNdtEeum65_6TcdgWw _azqS59dtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azyOtNdtEeum65_6TcdgWw" name="" type="_ayhqdNdtEeum65_6TcdgWw" association="_azyOs9dtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azyOttdtEeum65_6TcdgWw" name="" memberEnd="_azyOt9dtEeum65_6TcdgWw _azq58NdtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azyOt9dtEeum65_6TcdgWw" name="" type="_ayhqdNdtEeum65_6TcdgWw" association="_azyOttdtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azyOuddtEeum65_6TcdgWw" name="" memberEnd="_azyOutdtEeum65_6TcdgWw _azq59NdtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azyOutdtEeum65_6TcdgWw" name="" type="_ayktwNdtEeum65_6TcdgWw" association="_azyOuddtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azy1wddtEeum65_6TcdgWw" name="" memberEnd="_azy1wtdtEeum65_6TcdgWw _azq599dtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azy1wtdtEeum65_6TcdgWw" name="" type="_ayktwNdtEeum65_6TcdgWw" association="_azy1wddtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azy1xNdtEeum65_6TcdgWw" name="" memberEnd="_azy1xddtEeum65_6TcdgWw _azrhAddtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azy1xddtEeum65_6TcdgWw" name="" type="_ayktwNdtEeum65_6TcdgWw" association="_azy1xNdtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azy1x9dtEeum65_6TcdgWw" name="" memberEnd="_azy1yNdtEeum65_6TcdgWw _azrhA9dtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azy1yNdtEeum65_6TcdgWw" name="" type="_ayktwNdtEeum65_6TcdgWw" association="_azy1x9dtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azzc0ddtEeum65_6TcdgWw" name="" memberEnd="_azzc0tdtEeum65_6TcdgWw _azrhBddtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azzc0tdtEeum65_6TcdgWw" name="" type="_ayktwNdtEeum65_6TcdgWw" association="_azzc0ddtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azzc1NdtEeum65_6TcdgWw" name="" memberEnd="_azzc1ddtEeum65_6TcdgWw _azt9TNdtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azzc1ddtEeum65_6TcdgWw" name="" type="_ayhqdNdtEeum65_6TcdgWw" association="_azzc1NdtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_azzc19dtEeum65_6TcdgWw" name="" memberEnd="_azzc2NdtEeum65_6TcdgWw _azukUtdtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_azzc2NdtEeum65_6TcdgWw" name="" type="_ayhqdNdtEeum65_6TcdgWw" association="_azzc19dtEeum65_6TcdgWw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_az0D4NdtEeum65_6TcdgWw" name="" memberEnd="_az0D4ddtEeum65_6TcdgWw _azukVddtEeum65_6TcdgWw">
+        <ownedEnd xmi:id="_az0D4ddtEeum65_6TcdgWw" name="" type="_ayhqdNdtEeum65_6TcdgWw" association="_az0D4NdtEeum65_6TcdgWw"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_an8yINdtEeum65_6TcdgWw">
+      <eAnnotations xmi:id="_an-AQNdtEeum65_6TcdgWw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_aoCRsNdtEeum65_6TcdgWw" base_Package="_aflgUNdtEeum65_6TcdgWw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Array xmi:id="_ayeAENdtEeum65_6TcdgWw" dimensions="1" base_Element="_aydZAtdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Array xmi:id="_ayeAEtdtEeum65_6TcdgWw" base_Element="_aydZA9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Array xmi:id="_ayhDZ9dtEeum65_6TcdgWw" base_Element="_ayhDYddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_ayhqcddtEeum65_6TcdgWw" base_Element="_ayhDaNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Annotations xmi:id="_ayhqctdtEeum65_6TcdgWw" base_Element="_ayhDaNdtEeum65_6TcdgWw">
+    <annotations xmi:id="_ayhqc9dtEeum65_6TcdgWw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_ayi4kNdtEeum65_6TcdgWw" dimensions="1" base_Element="_ayiRgddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azSfcNdtEeum65_6TcdgWw" base_Element="_azR4YNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azSfctdtEeum65_6TcdgWw" base_Element="_azSfcddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azTGgNdtEeum65_6TcdgWw" base_Element="_azSfc9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azTGgtdtEeum65_6TcdgWw" base_Element="_azTGgddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azTGhNdtEeum65_6TcdgWw" base_Element="_azTGg9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azTGhtdtEeum65_6TcdgWw" base_Element="_azTGhddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azTtkNdtEeum65_6TcdgWw" base_Element="_azTGh9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azTtktdtEeum65_6TcdgWw" base_Element="_azTtkddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azUUoNdtEeum65_6TcdgWw" base_Element="_azTtk9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azUUotdtEeum65_6TcdgWw" base_Element="_azUUoddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azU7sNdtEeum65_6TcdgWw" base_Element="_azUUo9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azU7stdtEeum65_6TcdgWw" base_Element="_azU7sddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azViwNdtEeum65_6TcdgWw" base_Element="_azU7s9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azViwtdtEeum65_6TcdgWw" base_Element="_azViwddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azVixNdtEeum65_6TcdgWw" base_Element="_azViw9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azWJ0NdtEeum65_6TcdgWw" base_Element="_azVixddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azWJ0tdtEeum65_6TcdgWw" base_Element="_azWJ0ddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azWJ1NdtEeum65_6TcdgWw" base_Element="_azWJ09dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azWJ1tdtEeum65_6TcdgWw" base_Element="_azWJ1ddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azWw4NdtEeum65_6TcdgWw" base_Element="_azWJ19dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azWw4tdtEeum65_6TcdgWw" base_Element="_azWw4ddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azWw5NdtEeum65_6TcdgWw" base_Element="_azWw49dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azXX8NdtEeum65_6TcdgWw" base_Element="_azWw5ddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azZNINdtEeum65_6TcdgWw" base_Element="_azYmENdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azZNItdtEeum65_6TcdgWw" base_Element="_azZNIddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azZNJNdtEeum65_6TcdgWw" base_Element="_azZNI9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azZ0MddtEeum65_6TcdgWw" base_Element="_azZ0MNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azabQddtEeum65_6TcdgWw" base_Element="_azabQNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azabQ9dtEeum65_6TcdgWw" base_Element="_azabQtdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azbCUNdtEeum65_6TcdgWw" base_Element="_azabRNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azbCUtdtEeum65_6TcdgWw" base_Element="_azbCUddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azbCVNdtEeum65_6TcdgWw" base_Element="_azbCU9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azbCVtdtEeum65_6TcdgWw" base_Element="_azbCVddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azbpYNdtEeum65_6TcdgWw" base_Element="_azbCV9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azbpYtdtEeum65_6TcdgWw" base_Element="_azbpYddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azbpZNdtEeum65_6TcdgWw" base_Element="_azbpY9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azcQcNdtEeum65_6TcdgWw" base_Element="_azbpZddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azcQctdtEeum65_6TcdgWw" base_Element="_azcQcddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azcQdNdtEeum65_6TcdgWw" base_Element="_azcQc9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azc3gNdtEeum65_6TcdgWw" base_Element="_azcQdddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azc3gtdtEeum65_6TcdgWw" base_Element="_azc3gddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azc3hNdtEeum65_6TcdgWw" base_Element="_azc3g9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azdekddtEeum65_6TcdgWw" base_Element="_azdekNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azdek9dtEeum65_6TcdgWw" base_Element="_azdektdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azdelddtEeum65_6TcdgWw" base_Element="_azdelNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azeFoddtEeum65_6TcdgWw" base_Element="_azeFoNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azeFo9dtEeum65_6TcdgWw" base_Element="_azeFotdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azeFpddtEeum65_6TcdgWw" base_Element="_azeFpNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azf60NdtEeum65_6TcdgWw" base_Element="_azfTwNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azf60tdtEeum65_6TcdgWw" base_Element="_azf60ddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azgh4NdtEeum65_6TcdgWw" base_Element="_azf609dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Generics xmi:id="_azkMQNdtEeum65_6TcdgWw" genericsValue="User" base_Element="_azjlM9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azkzUtdtEeum65_6TcdgWw" base_Element="_azkzUddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Array xmi:id="_azn2oNdtEeum65_6TcdgWw" base_Element="_aznPktdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azn2otdtEeum65_6TcdgWw" base_Element="_azn2oddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Array xmi:id="_azn2pddtEeum65_6TcdgWw" base_Element="_azn2o9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azn2ptdtEeum65_6TcdgWw" base_Element="_azn2o9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Array xmi:id="_azn2qddtEeum65_6TcdgWw" base_Element="_azn2p9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azn2qtdtEeum65_6TcdgWw" base_Element="_azn2p9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Array xmi:id="_azodsddtEeum65_6TcdgWw" base_Element="_azn2q9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azodstdtEeum65_6TcdgWw" base_Element="_azn2q9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Array xmi:id="_azodtddtEeum65_6TcdgWw" base_Element="_azods9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azodttdtEeum65_6TcdgWw" base_Element="_azods9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Generics xmi:id="_azoduNdtEeum65_6TcdgWw" genericsValue="User, byte[]" base_Element="_azodt9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azoduddtEeum65_6TcdgWw" base_Element="_azodt9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Array xmi:id="_azpExddtEeum65_6TcdgWw" base_Element="_azpEw9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azpr0ddtEeum65_6TcdgWw" base_Element="_azpr0NdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Generics xmi:id="_azpr09dtEeum65_6TcdgWw" genericsValue="User" base_Element="_azpr0tdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azpr1ddtEeum65_6TcdgWw" base_Element="_azpr0tdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_azpr19dtEeum65_6TcdgWw" base_Property="_azpr1tdtEeum65_6TcdgWw" siblings="_azt9TNdtEeum65_6TcdgWw _azukUtdtEeum65_6TcdgWw _azukVddtEeum65_6TcdgWw" root="true"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azqS4NdtEeum65_6TcdgWw" base_Element="_azpr1tdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azqS4tdtEeum65_6TcdgWw" base_Element="_azqS4ddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azqS5NdtEeum65_6TcdgWw" base_Element="_azqS49dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azqS5tdtEeum65_6TcdgWw" base_Element="_azqS5ddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azqS6NdtEeum65_6TcdgWw" base_Element="_azqS59dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azq58ddtEeum65_6TcdgWw" base_Element="_azq58NdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azq59tdtEeum65_6TcdgWw" base_Element="_azq59NdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azrhANdtEeum65_6TcdgWw" base_Element="_azq599dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azrhAtdtEeum65_6TcdgWw" base_Element="_azrhAddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azrhBNdtEeum65_6TcdgWw" base_Element="_azrhA9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azrhBtdtEeum65_6TcdgWw" base_Element="_azrhBddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_azukUNdtEeum65_6TcdgWw" base_Property="_azt9TNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azukUddtEeum65_6TcdgWw" base_Element="_azt9TNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_azukU9dtEeum65_6TcdgWw" base_Property="_azukUtdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azukVNdtEeum65_6TcdgWw" base_Element="_azukUtdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:MultiDeclaration xmi:id="_azukVtdtEeum65_6TcdgWw" base_Property="_azukVddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_azukV9dtEeum65_6TcdgWw" base_Element="_azukVddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azxAkNdtEeum65_6TcdgWw" base_Element="_azwZgNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azxAk9dtEeum65_6TcdgWw" base_Element="_azxAkddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azxAltdtEeum65_6TcdgWw" base_Element="_azxAlNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azxnotdtEeum65_6TcdgWw" base_Element="_azxnoNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azxnpddtEeum65_6TcdgWw" base_Element="_azxno9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azxnqNdtEeum65_6TcdgWw" base_Element="_azxnptdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azyOstdtEeum65_6TcdgWw" base_Element="_azyOsNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azyOtddtEeum65_6TcdgWw" base_Element="_azyOs9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azyOuNdtEeum65_6TcdgWw" base_Element="_azyOttdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azy1wNdtEeum65_6TcdgWw" base_Element="_azyOuddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azy1w9dtEeum65_6TcdgWw" base_Element="_azy1wddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azy1xtdtEeum65_6TcdgWw" base_Element="_azy1xNdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azzc0NdtEeum65_6TcdgWw" base_Element="_azy1x9dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azzc09dtEeum65_6TcdgWw" base_Element="_azzc0ddtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azzc1tdtEeum65_6TcdgWw" base_Element="_azzc1NdtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_azzc2ddtEeum65_6TcdgWw" base_Element="_azzc19dtEeum65_6TcdgWw"/>
+  <UMLLabProfile:Reference xmi:id="_az0D4tdtEeum65_6TcdgWw" base_Element="_az0D4NdtEeum65_6TcdgWw"/>
+</xmi:XMI>

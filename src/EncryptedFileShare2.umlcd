@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ajdTsNdtEeum65_6TcdgWw">
+  <modelElement href="EncryptedFileShare2.uml#_aflgUNdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ejT0cNdtEeum65_6TcdgWw" targetItem="_ejYs8NdtEeum65_6TcdgWw" sourceItem="_ejR_QNdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ejUbgddtEeum65_6TcdgWw" targetItem="_ejYtL9dtEeum65_6TcdgWw" sourceItem="_ejUbgNdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ejUbg9dtEeum65_6TcdgWw" targetItem="_ejYtNddtEeum65_6TcdgWw" sourceItem="_ejUbgtdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ejUbhddtEeum65_6TcdgWw" targetItem="_ejYtO9dtEeum65_6TcdgWw" sourceItem="_ejUbhNdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejWQsNdtEeum65_6TcdgWw" sourceAnchor="406.0,66.0" targetAnchor="63.0,27.0" target="_wbXbINdtEeum65_6TcdgWw" source="_ejYs8NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azxAkddtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCONdtEeum65_6TcdgWw" position="679.0,228.0"/>
+    <bendpoints xmi:id="_uFhvuNduEeum65_6TcdgWw" sourceX="105" targetX="277" targetY="382"/>
+    <bendpoints xmi:id="_uFhvudduEeum65_6TcdgWw" sourceX="105" sourceY="-382" targetX="277"/>
+    <stereotypes xmi:id="_ejWQsddtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azxAk9dtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejWQstdtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wh7WINdtEeum65_6TcdgWw" position="-43.0,-31.00000000000003"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejWQs9dtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azxAktdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh6vE9dtEeum65_6TcdgWw" position="48.0,-56.0"/>
+      <visibility xmi:id="_ejWQtNdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejWQtddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejWQttdtEeum65_6TcdgWw" aggregationKind="NONE" name="frmEncryptedFileShare" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azpr0NdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh7WIddtEeum65_6TcdgWw" position="1.0,-57.0"/>
+      <visibility xmi:id="_ejWQt9dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejWQuNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejW3wNdtEeum65_6TcdgWw" sourceAnchor="406.0,96.0" targetAnchor="67.0,54.0" target="_wbXbJNdtEeum65_6TcdgWw" source="_ejYs8NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azxAlNdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCOddtEeum65_6TcdgWw" position="679.0,228.0"/>
+    <bendpoints xmi:id="_uFhvutduEeum65_6TcdgWw" sourceX="229" targetY="151"/>
+    <stereotypes xmi:id="_ejW3wddtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azxAltdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejW3wtdtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wh7WI9dtEeum65_6TcdgWw" position="-42.0,-63.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejW3w9dtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azxAlddtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh7WItdtEeum65_6TcdgWw" position="1.0,-57.0"/>
+      <visibility xmi:id="_ejW3xNdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejW3xddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejW3xtdtEeum65_6TcdgWw" aggregationKind="NONE" name="listModel" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azpr0tdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh79MNdtEeum65_6TcdgWw" position="2.0,0.9999999999999858"/>
+      <visibility xmi:id="_ejW3x9dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejW3yNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejW3yddtEeum65_6TcdgWw" sourceAnchor="308.0,0.0" targetAnchor="21.0,54.0" target="_wbYCMNdtEeum65_6TcdgWw" source="_ejYs8NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azxnoNdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCOtdtEeum65_6TcdgWw" position="679.0,228.0"/>
+    <stereotypes xmi:id="_ejW3ytdtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azxnotdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejW3y9dtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wh79MtdtEeum65_6TcdgWw" position="17.0,-38.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejW3zNdtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azxnoddtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh79MddtEeum65_6TcdgWw" position="-62.0,-61.0"/>
+      <visibility xmi:id="_ejW3zddtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejW3ztdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejW3z9dtEeum65_6TcdgWw" aggregationKind="NONE" name="file" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azpr1tdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh79M9dtEeum65_6TcdgWw" position="41.0,12.0"/>
+      <visibility xmi:id="_ejW30NdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejW30ddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejW30tdtEeum65_6TcdgWw" sourceAnchor="61.0,0.0" targetAnchor="41.0,54.0" target="_wbYCNNdtEeum65_6TcdgWw" source="_ejYs8NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azxno9dtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCPtdtEeum65_6TcdgWw" position="679.0,228.0"/>
+    <stereotypes xmi:id="_ejW309dtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azxnpddtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejW31NdtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wh8kQNdtEeum65_6TcdgWw" position="-82.0,-47.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejW31ddtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azxnpNdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh79NNdtEeum65_6TcdgWw" position="-57.0,-55.999999999999986"/>
+      <visibility xmi:id="_ejW31tdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejW319dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejW32NdtEeum65_6TcdgWw" aggregationKind="NONE" name="textField_saveTo" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azqS4ddtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh8kQddtEeum65_6TcdgWw" position="41.0,41.0"/>
+      <visibility xmi:id="_ejW32ddtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejW32tdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejW329dtEeum65_6TcdgWw" sourceAnchor="31.0,0.0" targetAnchor="11.0,54.0" target="_wbYCNNdtEeum65_6TcdgWw" source="_ejYs8NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azxnptdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCP9dtEeum65_6TcdgWw" position="679.0,228.0"/>
+    <stereotypes xmi:id="_ejW33NdtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azxnqNdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejW33ddtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wh9LUNdtEeum65_6TcdgWw" position="-43.0,-23.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejW33tdtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azxnp9dtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh8kQtdtEeum65_6TcdgWw" position="-62.0,-71.0"/>
+      <visibility xmi:id="_ejW339dtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejW34NdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejW34ddtEeum65_6TcdgWw" aggregationKind="NONE" name="textField_userID" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azqS49dtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh9LUddtEeum65_6TcdgWw" position="2.0,0.9999999999999858"/>
+      <visibility xmi:id="_ejW34tdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejW349dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejXe0NdtEeum65_6TcdgWw" sourceAnchor="91.0,0.0" targetAnchor="71.0,54.0" target="_wbYCNNdtEeum65_6TcdgWw" source="_ejYs8NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azyOsNdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCQNdtEeum65_6TcdgWw" position="679.0,228.0"/>
+    <stereotypes xmi:id="_ejXe0ddtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azyOstdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejXe0tdtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wh9yYddtEeum65_6TcdgWw" position="-82.0,26.000000000000007"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejXe09dtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azyOsddtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh9yYNdtEeum65_6TcdgWw" position="-48.0,-60.99999999999999"/>
+      <visibility xmi:id="_ejXe1NdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejXe1ddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejXe1tdtEeum65_6TcdgWw" aggregationKind="NONE" name="textField_lockerFile" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azqS5ddtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh9yYtdtEeum65_6TcdgWw" position="-28.0,36.00000000000001"/>
+      <visibility xmi:id="_ejXe19dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejXe2NdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejXe2ddtEeum65_6TcdgWw" sourceAnchor="203.0,0.0" targetAnchor="82.0,27.0" target="_wbYCNNdtEeum65_6TcdgWw" source="_ejYs8NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azyOs9dtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCQddtEeum65_6TcdgWw" position="679.0,228.0"/>
+    <bendpoints xmi:id="_uFiWwNduEeum65_6TcdgWw" sourceY="-124" targetX="101"/>
+    <stereotypes xmi:id="_ejXe2tdtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azyOtddtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejXe29dtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wh-ZcddtEeum65_6TcdgWw" position="-82.0,1.0000000000000142"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejXe3NdtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azyOtNdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh-ZcNdtEeum65_6TcdgWw" position="-17.0,-122.0"/>
+      <visibility xmi:id="_ejXe3ddtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejXe3tdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejXe39dtEeum65_6TcdgWw" aggregationKind="NONE" name="textField_privateKey" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azqS59dtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh_AgNdtEeum65_6TcdgWw" position="-24.0,-95.99999999999997"/>
+      <visibility xmi:id="_ejXe4NdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejXe4ddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejXe4tdtEeum65_6TcdgWw" sourceAnchor="233.0,0.0" targetAnchor="71.0,0.0" target="_wbYCNNdtEeum65_6TcdgWw" source="_ejYs8NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azyOttdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCQtdtEeum65_6TcdgWw" position="679.0,228.0"/>
+    <bendpoints xmi:id="_uFiWwdduEeum65_6TcdgWw" sourceY="-226" targetX="142" targetY="-75"/>
+    <bendpoints xmi:id="_uFiWwtduEeum65_6TcdgWw" sourceX="-142" sourceY="-226" targetY="-75"/>
+    <stereotypes xmi:id="_ejXe49dtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azyOuNdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejXe5NdtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wh_AgtdtEeum65_6TcdgWw" position="28.0,68.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejXe5ddtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azyOt9dtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh_AgddtEeum65_6TcdgWw" position="-18.0,-112.99999999999999"/>
+      <visibility xmi:id="_ejXe5tdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejXe59dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejXe6NdtEeum65_6TcdgWw" aggregationKind="NONE" name="textField_output" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azq58NdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh_nkNdtEeum65_6TcdgWw" position="1.0,-132.0"/>
+      <visibility xmi:id="_ejXe6ddtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejXe6tdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejYF4NdtEeum65_6TcdgWw" sourceAnchor="263.0,0.0" targetAnchor="0.0,40.0" target="_wbYCMNdtEeum65_6TcdgWw" source="_ejYs8NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azzc1NdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCO9dtEeum65_6TcdgWw" position="679.0,228.0"/>
+    <bendpoints xmi:id="_uFiWw9duEeum65_6TcdgWw" sourceY="-82" targetX="-24"/>
+    <stereotypes xmi:id="_ejYF4ddtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azzc1tdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejYF4tdtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wh_nktdtEeum65_6TcdgWw" position="-24.0,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejYF49dtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azzc1ddtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh_nkddtEeum65_6TcdgWw" position="7.0,-139.0"/>
+      <visibility xmi:id="_ejYF5NdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejYF5ddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejYF5tdtEeum65_6TcdgWw" aggregationKind="NONE" name="outFile" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azt9TNdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wiAOoNdtEeum65_6TcdgWw" position="-22.0,26.000000000000004"/>
+      <visibility xmi:id="_ejYF59dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYF6NdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejYF6ddtEeum65_6TcdgWw" sourceAnchor="406.0,36.0" targetAnchor="21.0,0.0" target="_wbYCMNdtEeum65_6TcdgWw" source="_ejYs8NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azzc19dtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCPNdtEeum65_6TcdgWw" position="679.0,228.0"/>
+    <bendpoints xmi:id="_uFiWxNduEeum65_6TcdgWw" sourceX="45" targetX="143" targetY="158"/>
+    <bendpoints xmi:id="_uFiWxdduEeum65_6TcdgWw" sourceX="45" sourceY="-292" targetX="143" targetY="-134"/>
+    <bendpoints xmi:id="_uFiWxtduEeum65_6TcdgWw" sourceX="-98" sourceY="-292" targetY="-134"/>
+    <stereotypes xmi:id="_ejYF6tdtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azzc2ddtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejYF69dtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wiAOotdtEeum65_6TcdgWw" position="-82.0,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejYF7NdtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azzc2NdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wiAOoddtEeum65_6TcdgWw" position="27.0,-56.0"/>
+      <visibility xmi:id="_ejYF7ddtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejYF7tdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejYF79dtEeum65_6TcdgWw" aggregationKind="NONE" name="lockerFile" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azukUtdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wiA1sNdtEeum65_6TcdgWw" position="-81.0,-163.0"/>
+      <visibility xmi:id="_ejYF8NdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYF8ddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejYF8tdtEeum65_6TcdgWw" sourceAnchor="336.0,0.0" targetAnchor="42.0,49.0" target="_wbYCMNdtEeum65_6TcdgWw" source="_ejYs8NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_az0D4NdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCPddtEeum65_6TcdgWw" position="679.0,228.0"/>
+    <bendpoints xmi:id="_uFiWx9duEeum65_6TcdgWw" sourceY="-73" targetX="7"/>
+    <stereotypes xmi:id="_ejYF89dtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_az0D4tdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejYF9NdtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wiA1stdtEeum65_6TcdgWw" position="6.0,-24.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejYF9ddtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_az0D4ddtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wiA1sddtEeum65_6TcdgWw" position="-6.0,-42.0"/>
+      <visibility xmi:id="_ejYF9tdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejYF99dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejYF-NdtEeum65_6TcdgWw" aggregationKind="NONE" name="keyFile" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azukVddtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wiBcwNdtEeum65_6TcdgWw" position="-27.0,-101.0"/>
+      <visibility xmi:id="_ejYF-ddtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYF-tdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ejyVkNdtEeum65_6TcdgWw" targetItem="_ej0K0tdtEeum65_6TcdgWw" sourceItem="_ejpLoNdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejyVkddtEeum65_6TcdgWw" sourceAnchor="0.0,69.0" targetAnchor="11.0,0.0" target="_wbYCNNdtEeum65_6TcdgWw" source="_ej0K0tdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azy1wddtEeum65_6TcdgWw"/>
+    <bendpoints xmi:id="_uFhvsNduEeum65_6TcdgWw" sourceX="-167" targetX="-629" targetY="624"/>
+    <bendpoints xmi:id="_uFhvsdduEeum65_6TcdgWw" sourceX="-167" sourceY="-639" targetX="-629" targetY="-15"/>
+    <bendpoints xmi:id="_uFhvstduEeum65_6TcdgWw" sourceX="462" sourceY="-639" targetY="-15"/>
+    <stereotypes xmi:id="_ejy8ptdtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azy1w9dtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejy8o9dtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wh5g9ddtEeum65_6TcdgWw" position="41.000000000000085,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejy8pNdtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azy1wtdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh5g9NdtEeum65_6TcdgWw" position="-17.0,41.0"/>
+      <visibility xmi:id="_ejzjt9dtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejzjttdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejy8pddtEeum65_6TcdgWw" aggregationKind="NONE" name="textField_userID" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azq599dtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh6IANdtEeum65_6TcdgWw" position="-126.99999999999989,-7.999999999999886"/>
+      <visibility xmi:id="_ejzjuddtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejzjuNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejyVktdtEeum65_6TcdgWw" sourceAnchor="0.0,99.0" targetAnchor="41.0,0.0" target="_wbYCNNdtEeum65_6TcdgWw" source="_ej0K0tdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azy1xNdtEeum65_6TcdgWw"/>
+    <bendpoints xmi:id="_uFhvs9duEeum65_6TcdgWw" sourceX="-197" targetX="-689" targetY="654"/>
+    <bendpoints xmi:id="_uFhvtNduEeum65_6TcdgWw" sourceX="-197" sourceY="-699" targetX="-689" targetY="-45"/>
+    <bendpoints xmi:id="_uFhvtdduEeum65_6TcdgWw" sourceX="492" sourceY="-699" targetY="-45"/>
+    <stereotypes xmi:id="_ejzjsddtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azy1xtdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejy8p9dtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wh6IAtdtEeum65_6TcdgWw" position="41.000000000000114,1.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejy8qNdtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azy1xddtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh6IAddtEeum65_6TcdgWw" position="-47.0,2.0"/>
+      <visibility xmi:id="_ejzjvNdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejzju9dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejzjsNdtEeum65_6TcdgWw" aggregationKind="NONE" name="textField_publicKey" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azrhAddtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh6IA9dtEeum65_6TcdgWw" position="-185.00000000000017,-75.00000000000011"/>
+      <visibility xmi:id="_ejzjvtdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejzjvddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ejyVk9dtEeum65_6TcdgWw" sourceAnchor="375.0,42.0" targetAnchor="42.0,19.0" target="_wbYCMNdtEeum65_6TcdgWw" source="_ej0K0tdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azzc0ddtEeum65_6TcdgWw"/>
+    <bendpoints xmi:id="_uFhvttduEeum65_6TcdgWw" sourceX="537" targetX="152" targetY="549"/>
+    <bendpoints xmi:id="_uFhvt9duEeum65_6TcdgWw" sourceX="537" sourceY="-549" targetX="152"/>
+    <stereotypes xmi:id="_ejzjtddtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azzc09dtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ejzjstdtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_wh6vEddtEeum65_6TcdgWw" position="-42.0,212.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ejzjs9dtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azzc0tdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh6vENdtEeum65_6TcdgWw" position="1.0,-57.0"/>
+      <visibility xmi:id="_ejzjwddtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejzjwNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ejzjtNdtEeum65_6TcdgWw" aggregationKind="NONE" name="file" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azrhBddtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_wh6vEtdtEeum65_6TcdgWw" position="39.0,-57.0"/>
+      <visibility xmi:id="_ejzjw9dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejzjwtdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ejy8oNdtEeum65_6TcdgWw" targetItem="_ej0K8tdtEeum65_6TcdgWw" sourceItem="_ejyVlNdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ejy8otdtEeum65_6TcdgWw" targetItem="_ej0K-NdtEeum65_6TcdgWw" sourceItem="_ejy8oddtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ej0KwNdtEeum65_6TcdgWw" source="_ej0K0tdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azyOuddtEeum65_6TcdgWw"/>
+    <stereotypes xmi:id="_ej0KwddtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azy1wNdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ej0KwtdtEeum65_6TcdgWw" text=""/>
+    <sourceRole xmi:id="_ej0Kw9dtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azyOutdtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ej0KxNdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ej0KxddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ej0KxtdtEeum65_6TcdgWw" aggregationKind="NONE" name="contentPanel" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azq59NdtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ej0Kx9dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ej0KyNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ej0KyddtEeum65_6TcdgWw" sourceAnchor="187.0,0.0" targetAnchor="183.0,162.0" target="_ekKwENdtEeum65_6TcdgWw" source="_ej0K0tdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azy1x9dtEeum65_6TcdgWw"/>
+    <stereotypes xmi:id="_ej0KytdtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azzc0NdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ej0Ky9dtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_ewtXQNdtEeum65_6TcdgWw" position="-21.0,-6.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ej0KzNdtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azy1yNdtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_ewswMNdtEeum65_6TcdgWw" position="-21.0,-60.0"/>
+      <visibility xmi:id="_ej0KzddtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ej0KztdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ej0Kz9dtEeum65_6TcdgWw" aggregationKind="NONE" name="user" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azrhA9dtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_ewtXQddtEeum65_6TcdgWw" position="3.9999999999999716,5.0"/>
+      <visibility xmi:id="_ej0K0NdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ej0K0ddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ekKJANdtEeum65_6TcdgWw" targetItem="_ekKwENdtEeum65_6TcdgWw" sourceItem="_ej_w8NdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_eklm0NdtEeum65_6TcdgWw" targetItem="_ekmN79dtEeum65_6TcdgWw" sourceItem="_ekansNdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ekmN4ddtEeum65_6TcdgWw" targetItem="_ekmN-9dtEeum65_6TcdgWw" sourceItem="_ekmN4NdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ek8zMNdtEeum65_6TcdgWw" targetItem="_ek_PeddtEeum65_6TcdgWw" sourceItem="_ekybINdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ek9aQddtEeum65_6TcdgWw" targetItem="_ek_PntdtEeum65_6TcdgWw" sourceItem="_ek9aQNdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ek9aQ9dtEeum65_6TcdgWw" targetItem="_ek_PrNdtEeum65_6TcdgWw" sourceItem="_ek9aQtdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ek-BUddtEeum65_6TcdgWw" targetItem="_ek_PtNdtEeum65_6TcdgWw" sourceItem="_ek-BUNdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ek-oYNdtEeum65_6TcdgWw" targetItem="_ek_PxtdtEeum65_6TcdgWw" sourceItem="_ek-BUtdtEeum65_6TcdgWw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ek_PcNdtEeum65_6TcdgWw" sourceAnchor="0.0,15.0" targetAnchor="86.0,40.0" target="_pzoSINdtEeum65_6TcdgWw" source="_ek_PeddtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azwZgNdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_pzoSJNdtEeum65_6TcdgWw" position="471.0,851.0"/>
+    <stereotypes xmi:id="_ek_PcddtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azxAkNdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ek_PctdtEeum65_6TcdgWw" text="">
+      <visualProperties xmi:id="_p4DfIddtEeum65_6TcdgWw" position="-8.666666666666657,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ek_Pc9dtEeum65_6TcdgWw" aggregationKind="NONE" name="">
+      <modelElement href="EncryptedFileShare2.uml#_azwZgddtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_p4DfINdtEeum65_6TcdgWw" position="-17.0,-27.5"/>
+      <visibility xmi:id="_ek_PdNdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ek_PdddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ek_PdtdtEeum65_6TcdgWw" aggregationKind="NONE" name="userEncryptionKeys" navigable="true">
+      <modelElement href="EncryptedFileShare2.uml#_azodt9dtEeum65_6TcdgWw"/>
+      <visualProperties xmi:id="_p4DfItdtEeum65_6TcdgWw" position="-36.0,46.0"/>
+      <visibility xmi:id="_ek_Pd9dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ek_PeNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_s3cBYNdtEeum65_6TcdgWw" sourceAnchor="371.0,0.0" targetAnchor="48.0,76.0" dashed="true" superClass="_s3cocNdtEeum65_6TcdgWw" subClass="_ek_PeddtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_aziXENdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_s3codNdtEeum65_6TcdgWw" position="319.0,-79.0"/>
+    <bendpoints xmi:id="_uFiWytduEeum65_6TcdgWw" sourceY="-592" targetX="108" targetY="41"/>
+    <bendpoints xmi:id="_uFiWy9duEeum65_6TcdgWw" sourceX="-108" sourceY="-592" targetY="41"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_s3cBYddtEeum65_6TcdgWw" sourceAnchor="183.0,0.0" targetAnchor="48.0,76.0" dashed="true" superClass="_s3cocNdtEeum65_6TcdgWw" subClass="_ekKwENdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azkzU9dtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_uKvcUNdtEeum65_6TcdgWw" position="319.0,-79.0"/>
+    <bendpoints xmi:id="_uFiWyNduEeum65_6TcdgWw" sourceY="-30" targetX="-121" targetY="41"/>
+    <bendpoints xmi:id="_uFiWydduEeum65_6TcdgWw" sourceX="121" sourceY="-30" targetY="41"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ejR_QNdtEeum65_6TcdgWw" sourceConnectionVisual="_ejT0cNdtEeum65_6TcdgWw" text="@author Ioanna Pashalidi Kozelj - nnp18llf&#xA;&#xA;GUI&#xA; *" item="_ejYs8NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azt9S9dtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ejUbgNdtEeum65_6TcdgWw" sourceConnectionVisual="_ejUbgddtEeum65_6TcdgWw" text="Launch the application." item="_ejYtL9dtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azukWNdtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ejUbgtdtEeum65_6TcdgWw" sourceConnectionVisual="_ejUbg9dtEeum65_6TcdgWw" text="Create the application." item="_ejYtNddtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azukWddtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ejUbhNdtEeum65_6TcdgWw" sourceConnectionVisual="_ejUbhddtEeum65_6TcdgWw" text="Initialise the contents of the frame." item="_ejYtO9dtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azukWtdtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ejpLoNdtEeum65_6TcdgWw" sourceConnectionVisual="_ejyVkNdtEeum65_6TcdgWw" text="@author Ioanna Pashalidi Kozelj - nnp18llf&#xA;&#xA;prompts user to get the details of the sharing user&#xA; *" item="_ej0K0tdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azukW9dtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ejyVlNdtEeum65_6TcdgWw" sourceConnectionVisual="_ejy8oNdtEeum65_6TcdgWw" text="Create the dialog." item="_ej0K8tdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azukXNdtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ejy8oddtEeum65_6TcdgWw" sourceConnectionVisual="_ejy8otdtEeum65_6TcdgWw" text="@return user details" item="_ej0K-NdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azukXddtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ej_w8NdtEeum65_6TcdgWw" sourceConnectionVisual="_ekKJANdtEeum65_6TcdgWw" text="@author Ioanna Pashalidi Kozelj - nnp18llf&#xA;&#xA;This class contains getter methods for user id and public key&#xA; *" item="_ekKwENdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azt9StdtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ekansNdtEeum65_6TcdgWw" sourceConnectionVisual="_eklm0NdtEeum65_6TcdgWw" text="@param contents&#xA;&#x9;&#x9; * @param fileName" item="_ekmN79dtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azt9RNdtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ekmN4NdtEeum65_6TcdgWw" sourceConnectionVisual="_ekmN4ddtEeum65_6TcdgWw" text="@return name of the files" item="_ekmN-9dtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azt9RddtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ekybINdtEeum65_6TcdgWw" sourceConnectionVisual="_ek8zMNdtEeum65_6TcdgWw" text="@author Ioanna Pashalidi Kozelj - nnp8llf&#xA; *&#xA; *This class contains methods that implement encryption, decryptioon and deals with the file storage" item="_ek_PeddtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azt9Q9dtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ek9aQNdtEeum65_6TcdgWw" sourceConnectionVisual="_ek9aQddtEeum65_6TcdgWw" text="Decrypt this EncryptedSharedFile for a given user.&#xA;&#x9; * &#xA;&#x9; * @param id        the ID of the user to decrypt for.&#xA;&#x9; * @param key       the private key of the user.&#xA;&#x9; * @param systemKey the system encryption key.&#xA;&#x9; * @return a decrypted SharedFileContents instance.&#xA;&#x9; * @throws GeneralSecurityException in the event of cryptographic error or if&#xA;&#x9; *                                  the user encryption key cannot be accepted." item="_ek_PntdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azt9SNdtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ek9aQtdtEeum65_6TcdgWw" sourceConnectionVisual="_ek9aQ9dtEeum65_6TcdgWw" text="Load an EncryptedSharedFile from disk.&#xA;&#x9; * &#xA;&#x9; * @param input the file to attempt to load from.&#xA;&#x9; * @return the EncryptedSharedFile instance.&#xA;&#x9; * @throws IOException in the event of IO errors or if the file doesn't contain&#xA;&#x9; *                     an EncryptedSharedFile." item="_ek_PrNdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azt9RtdtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ek-BUNdtEeum65_6TcdgWw" sourceConnectionVisual="_ek-BUddtEeum65_6TcdgWw" text="Standard constructor requiring the original file data.&#xA;&#x9; * &#xA;&#x9; * @param filename       the original filename.&#xA;&#x9; * @param fileContents   the contents of the file to be encrypted.&#xA;&#x9; * @param sharingParties the details of the users sharing this file.&#xA;&#x9; * @param systemKey      the system (internal) encryption key.&#xA;&#x9; * @throws GeneralSecurityException in the event of a cryptography error." item="_ek_PtNdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azt9R9dtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ek-BUtdtEeum65_6TcdgWw" sourceConnectionVisual="_ek-oYNdtEeum65_6TcdgWw" text="Store this EncryptedSharedFile to disk.&#xA;&#x9; * &#xA;&#x9; * @param outputDirectory the directory the file is to be written to.&#xA;&#x9; * @return the path name to the file as saved.&#xA;&#x9; * @throws IOException in the event of any errors storing the object." item="_ek_PxtdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azt9SddtEeum65_6TcdgWw"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ej0K0tdtEeum65_6TcdgWw" comments="_ejpLoNdtEeum65_6TcdgWw" targetConnectionVisual="_ejyVkNdtEeum65_6TcdgWw" name="NewUserDialog" associationsOut="_ejyVkddtEeum65_6TcdgWw _ejyVktdtEeum65_6TcdgWw _ejyVk9dtEeum65_6TcdgWw _ej0KwNdtEeum65_6TcdgWw _ej0KyddtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_ayktwNdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_ej0K09dtEeum65_6TcdgWw" position="11.0,436.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ej0K1NdtEeum65_6TcdgWw" label="+"/>
+    <attributes xmi:id="_ej0K1ddtEeum65_6TcdgWw" defaultValue="8756358888866345456L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="EncryptedFileShare2.uml#_azq58tdtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ej0K1tdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ej0K19dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ej0K2NdtEeum65_6TcdgWw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ej0K2ddtEeum65_6TcdgWw" defaultValue="new JPanel()" name="contentPanel">
+      <modelElement href="EncryptedFileShare2.uml#_azq59NdtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ej0K2tdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azq59tdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ej0K29dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ej0K3NdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ej0K3ddtEeum65_6TcdgWw" name="JPanel">
+        <modelElement href="EncryptedFileShare2.uml#_azdektdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ej0K3tdtEeum65_6TcdgWw" name="textField_userID">
+      <modelElement href="EncryptedFileShare2.uml#_azq599dtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ej0K39dtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azrhANdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ej0K4NdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ej0K4ddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ej0K4tdtEeum65_6TcdgWw" name="JTextField">
+        <modelElement href="EncryptedFileShare2.uml#_azeFoNdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ej0K49dtEeum65_6TcdgWw" name="textField_publicKey">
+      <modelElement href="EncryptedFileShare2.uml#_azrhAddtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ej0K5NdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azrhAtdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ej0K5ddtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ej0K5tdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ej0K59dtEeum65_6TcdgWw" name="JTextField">
+        <modelElement href="EncryptedFileShare2.uml#_azeFoNdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ej0K6NdtEeum65_6TcdgWw" name="user">
+      <modelElement href="EncryptedFileShare2.uml#_azrhA9dtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ej0K6ddtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azrhBNdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ej0K6tdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ej0K69dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ej0K7NdtEeum65_6TcdgWw" name="User">
+        <modelElement href="EncryptedFileShare2.uml#_aygcU9dtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ej0K7ddtEeum65_6TcdgWw" name="file">
+      <modelElement href="EncryptedFileShare2.uml#_azrhBddtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ej0K7tdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azrhBtdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ej0K79dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ej0K8NdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ej0K8ddtEeum65_6TcdgWw" name="File">
+        <modelElement href="EncryptedFileShare2.uml#_azR4YNdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ej0K8tdtEeum65_6TcdgWw" comments="_ejyVlNdtEeum65_6TcdgWw" targetConnectionVisual="_ejy8oNdtEeum65_6TcdgWw" name="NewUserDialog">
+      <modelElement href="EncryptedFileShare2.uml#_ayktwddtEeum65_6TcdgWw"/>
+      <keywords xmi:id="_ej0K89dtEeum65_6TcdgWw" keyword="create"/>
+      <visibility xmi:id="_ej0K9NdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ej0K9ddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ej0K9tdtEeum65_6TcdgWw">
+        <modelElement href="EncryptedFileShare2.uml#_ayl74ddtEeum65_6TcdgWw"/>
+        <type xmi:id="_ej0K99dtEeum65_6TcdgWw" name="NewUserDialog">
+          <modelElement href="EncryptedFileShare2.uml#_ayktwNdtEeum65_6TcdgWw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ej0K-NdtEeum65_6TcdgWw" comments="_ejy8oddtEeum65_6TcdgWw" targetConnectionVisual="_ejy8otdtEeum65_6TcdgWw" name="getUserDetails">
+      <modelElement href="EncryptedFileShare2.uml#_ayl74tdtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ej0K-ddtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ej0K-tdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ej0K-9dtEeum65_6TcdgWw">
+        <modelElement href="EncryptedFileShare2.uml#_azgh4ddtEeum65_6TcdgWw"/>
+        <type xmi:id="_ej0K_NdtEeum65_6TcdgWw" name="User">
+          <modelElement href="EncryptedFileShare2.uml#_aygcU9dtEeum65_6TcdgWw"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_pzoSINdtEeum65_6TcdgWw" name="Map" associationsIn="_ek_PcNdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azWJ09dtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_pzoSIddtEeum65_6TcdgWw" position="-141.0,567.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_pzoSItdtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azWJ1NdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <visibility xmi:id="_pzoSI9dtEeum65_6TcdgWw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wbXbINdtEeum65_6TcdgWw" name="JFrame" associationsIn="_ejWQsNdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azc3gddtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbXbIddtEeum65_6TcdgWw" position="613.0,-311.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_wbXbItdtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azc3gtdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <visibility xmi:id="_wbXbI9dtEeum65_6TcdgWw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wbXbJNdtEeum65_6TcdgWw" name="DefaultListModel" associationsIn="_ejW3wNdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azcQc9dtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbXbJddtEeum65_6TcdgWw" position="1010.0,-77.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_wbXbJtdtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azcQdNdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <visibility xmi:id="_wbXbJ9dtEeum65_6TcdgWw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wbYCNNdtEeum65_6TcdgWw" name="JTextField" associationsIn="_ejW30tdtEeum65_6TcdgWw _ejW329dtEeum65_6TcdgWw _ejXe0NdtEeum65_6TcdgWw _ejXe2ddtEeum65_6TcdgWw _ejXe4tdtEeum65_6TcdgWw _ejyVkddtEeum65_6TcdgWw _ejyVktdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azeFoNdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCNddtEeum65_6TcdgWw" position="462.0,-119.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_wbYCNtdtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azeFoddtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <visibility xmi:id="_wbYCN9dtEeum65_6TcdgWw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ejYs8NdtEeum65_6TcdgWw" comments="_ejR_QNdtEeum65_6TcdgWw" targetConnectionVisual="_ejT0cNdtEeum65_6TcdgWw" name="EncryptedFileShareApp" associationsOut="_ejWQsNdtEeum65_6TcdgWw _ejW3wNdtEeum65_6TcdgWw _ejW3yddtEeum65_6TcdgWw _ejW30tdtEeum65_6TcdgWw _ejW329dtEeum65_6TcdgWw _ejXe0NdtEeum65_6TcdgWw _ejXe2ddtEeum65_6TcdgWw _ejXe4tdtEeum65_6TcdgWw _ejYF4NdtEeum65_6TcdgWw _ejYF6ddtEeum65_6TcdgWw _ejYF8tdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_ayhqdNdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_ejYs8ddtEeum65_6TcdgWw" position="442.0,32.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ejYs8tdtEeum65_6TcdgWw" label="+"/>
+    <attributes xmi:id="_ejYs89dtEeum65_6TcdgWw" name="frmEncryptedFileShare">
+      <modelElement href="EncryptedFileShare2.uml#_azpr0NdtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ejYs9NdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azpr0ddtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ejYs9ddtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYs9tdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ejYs99dtEeum65_6TcdgWw" name="JFrame">
+        <modelElement href="EncryptedFileShare2.uml#_azc3gddtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ejYs-NdtEeum65_6TcdgWw" defaultValue="new DefaultListModel&lt;User>()" name="listModel">
+      <modelElement href="EncryptedFileShare2.uml#_azpr0tdtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ejYs-ddtEeum65_6TcdgWw" name="Generics">
+        <modelElement href="EncryptedFileShare2.uml#_azpr09dtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ejYs-tdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azpr1ddtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ejYs-9dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYs_NdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ejYs_ddtEeum65_6TcdgWw" name="DefaultListModel">
+        <modelElement href="EncryptedFileShare2.uml#_azcQc9dtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ejYs_tdtEeum65_6TcdgWw" name="file">
+      <modelElement href="EncryptedFileShare2.uml#_azpr1tdtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ejYs_9dtEeum65_6TcdgWw" name="MultiDeclaration">
+        <modelElement href="EncryptedFileShare2.uml#_azpr19dtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ejYtANdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azqS4NdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ejYtAddtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYtAtdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ejYtA9dtEeum65_6TcdgWw" name="File">
+        <modelElement href="EncryptedFileShare2.uml#_azR4YNdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ejYtBNdtEeum65_6TcdgWw" name="textField_saveTo">
+      <modelElement href="EncryptedFileShare2.uml#_azqS4ddtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ejYtBddtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azqS4tdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ejYtBtdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYtB9dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ejYtCNdtEeum65_6TcdgWw" name="JTextField">
+        <modelElement href="EncryptedFileShare2.uml#_azeFoNdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ejYtCddtEeum65_6TcdgWw" name="textField_userID">
+      <modelElement href="EncryptedFileShare2.uml#_azqS49dtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ejYtCtdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azqS5NdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ejYtC9dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYtDNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ejYtDddtEeum65_6TcdgWw" name="JTextField">
+        <modelElement href="EncryptedFileShare2.uml#_azeFoNdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ejYtDtdtEeum65_6TcdgWw" name="textField_lockerFile">
+      <modelElement href="EncryptedFileShare2.uml#_azqS5ddtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ejYtD9dtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azqS5tdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ejYtENdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYtEddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ejYtEtdtEeum65_6TcdgWw" name="JTextField">
+        <modelElement href="EncryptedFileShare2.uml#_azeFoNdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ejYtE9dtEeum65_6TcdgWw" name="textField_privateKey">
+      <modelElement href="EncryptedFileShare2.uml#_azqS59dtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ejYtFNdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azqS6NdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ejYtFddtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYtFtdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ejYtF9dtEeum65_6TcdgWw" name="JTextField">
+        <modelElement href="EncryptedFileShare2.uml#_azeFoNdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ejYtGNdtEeum65_6TcdgWw" name="textField_output">
+      <modelElement href="EncryptedFileShare2.uml#_azq58NdtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ejYtGddtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azq58ddtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ejYtGtdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYtG9dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ejYtHNdtEeum65_6TcdgWw" name="JTextField">
+        <modelElement href="EncryptedFileShare2.uml#_azeFoNdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ejYtHddtEeum65_6TcdgWw" name="outFile">
+      <modelElement href="EncryptedFileShare2.uml#_azt9TNdtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ejYtHtdtEeum65_6TcdgWw" name="MultiDeclaration">
+        <modelElement href="EncryptedFileShare2.uml#_azukUNdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ejYtH9dtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azukUddtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ejYtINdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYtIddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ejYtItdtEeum65_6TcdgWw" name="File">
+        <modelElement href="EncryptedFileShare2.uml#_azR4YNdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ejYtI9dtEeum65_6TcdgWw" name="lockerFile">
+      <modelElement href="EncryptedFileShare2.uml#_azukUtdtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ejYtJNdtEeum65_6TcdgWw" name="MultiDeclaration">
+        <modelElement href="EncryptedFileShare2.uml#_azukU9dtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ejYtJddtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azukVNdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ejYtJtdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYtJ9dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ejYtKNdtEeum65_6TcdgWw" name="File">
+        <modelElement href="EncryptedFileShare2.uml#_azR4YNdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ejYtKddtEeum65_6TcdgWw" name="keyFile">
+      <modelElement href="EncryptedFileShare2.uml#_azukVddtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ejYtKtdtEeum65_6TcdgWw" name="MultiDeclaration">
+        <modelElement href="EncryptedFileShare2.uml#_azukVtdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ejYtK9dtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azukV9dtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ejYtLNdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYtLddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ejYtLtdtEeum65_6TcdgWw" name="File">
+        <modelElement href="EncryptedFileShare2.uml#_azR4YNdtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ejYtL9dtEeum65_6TcdgWw" comments="_ejUbgNdtEeum65_6TcdgWw" targetConnectionVisual="_ejUbgddtEeum65_6TcdgWw" name="main" staticOperation="true">
+      <modelElement href="EncryptedFileShare2.uml#_ayiRgNdtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ejYtMNdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejYtMddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_ejYtMtdtEeum65_6TcdgWw" name="args">
+        <modelElement href="EncryptedFileShare2.uml#_ayiRgddtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ejYtM9dtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ejYtNNdtEeum65_6TcdgWw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ejYtNddtEeum65_6TcdgWw" comments="_ejUbgtdtEeum65_6TcdgWw" targetConnectionVisual="_ejUbg9dtEeum65_6TcdgWw" name="EncryptedFileShareApp">
+      <modelElement href="EncryptedFileShare2.uml#_ayi4kddtEeum65_6TcdgWw"/>
+      <keywords xmi:id="_ejYtNtdtEeum65_6TcdgWw" keyword="create"/>
+      <visibility xmi:id="_ejYtN9dtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ejYtONdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ejYtOddtEeum65_6TcdgWw">
+        <modelElement href="EncryptedFileShare2.uml#_ayi4lNdtEeum65_6TcdgWw"/>
+        <type xmi:id="_ejYtOtdtEeum65_6TcdgWw" name="EncryptedFileShareApp">
+          <modelElement href="EncryptedFileShare2.uml#_ayhqdNdtEeum65_6TcdgWw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_ejYtO9dtEeum65_6TcdgWw" comments="_ejUbhNdtEeum65_6TcdgWw" targetConnectionVisual="_ejUbhddtEeum65_6TcdgWw" name="initialise">
+      <modelElement href="EncryptedFileShare2.uml#_ayi4lddtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ejYtPNdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYtPddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_ejYtPtdtEeum65_6TcdgWw" name="fileChooser">
+      <modelElement href="EncryptedFileShare2.uml#_ayi4ltdtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ejYtP9dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ejYtQNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ejYtQddtEeum65_6TcdgWw">
+        <modelElement href="EncryptedFileShare2.uml#_azmBcNdtEeum65_6TcdgWw"/>
+        <type xmi:id="_ejYtQtdtEeum65_6TcdgWw" name="File">
+          <modelElement href="EncryptedFileShare2.uml#_azR4YNdtEeum65_6TcdgWw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ejYtQ9dtEeum65_6TcdgWw" name="directoriesOnly">
+        <modelElement href="EncryptedFileShare2.uml#_ayi4l9dtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ejYtRNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+        <type xmi:id="_ejYtRddtEeum65_6TcdgWw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_wbYCMNdtEeum65_6TcdgWw" name="File" associationsIn="_ejW3yddtEeum65_6TcdgWw _ejyVk9dtEeum65_6TcdgWw _ejYF4NdtEeum65_6TcdgWw _ejYF6ddtEeum65_6TcdgWw _ejYF8tdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azR4YNdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_wbYCMddtEeum65_6TcdgWw" position="729.0,-90.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_wbYCMtdtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azSfcNdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <visibility xmi:id="_wbYCM9dtEeum65_6TcdgWw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_s3cocNdtEeum65_6TcdgWw" name="Serializable" subclassedBy="_s3cBYNdtEeum65_6TcdgWw _s3cBYddtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_azTGh9dtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_s3cocddtEeum65_6TcdgWw" position="271.0,-117.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_s3coctdtEeum65_6TcdgWw" name="Reference">
+      <modelElement href="EncryptedFileShare2.uml#_azTtkNdtEeum65_6TcdgWw"/>
+    </stereotypes>
+    <visibility xmi:id="_s3coc9dtEeum65_6TcdgWw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ek_PeddtEeum65_6TcdgWw" comments="_ekybINdtEeum65_6TcdgWw" targetConnectionVisual="_ek8zMNdtEeum65_6TcdgWw" name="EncryptedSharedFile" associationsOut="_ek_PcNdtEeum65_6TcdgWw" generalizations="_s3cBYNdtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_ayZuoNdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_ek_PetdtEeum65_6TcdgWw" position="56.0,592.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ek_Pe9dtEeum65_6TcdgWw" label="+"/>
+    <attributes xmi:id="_ek_PfNdtEeum65_6TcdgWw" defaultValue="-6673024660015796987L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="EncryptedFileShare2.uml#_aznPkNdtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ek_PfddtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ek_PftdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ek_Pf9dtEeum65_6TcdgWw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ek_PgNdtEeum65_6TcdgWw" name="encryptedContents">
+      <modelElement href="EncryptedFileShare2.uml#_azn2o9dtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ek_PgddtEeum65_6TcdgWw" name="Array">
+        <modelElement href="EncryptedFileShare2.uml#_azn2pddtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ek_PgtdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azn2ptdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ek_Pg9dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ek_PhNdtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ek_PhddtEeum65_6TcdgWw" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ek_PhtdtEeum65_6TcdgWw" name="encryptedOriginalName">
+      <modelElement href="EncryptedFileShare2.uml#_azn2p9dtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ek_Ph9dtEeum65_6TcdgWw" name="Array">
+        <modelElement href="EncryptedFileShare2.uml#_azn2qddtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ek_PiNdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azn2qtdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ek_PiddtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ek_PitdtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ek_Pi9dtEeum65_6TcdgWw" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ek_PjNdtEeum65_6TcdgWw" name="ivSpecBytes">
+      <modelElement href="EncryptedFileShare2.uml#_azn2q9dtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ek_PjddtEeum65_6TcdgWw" name="Array">
+        <modelElement href="EncryptedFileShare2.uml#_azodsddtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ek_PjtdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azodstdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ek_Pj9dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ek_PkNdtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ek_PkddtEeum65_6TcdgWw" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ek_PktdtEeum65_6TcdgWw" name="systemEncryptedKey">
+      <modelElement href="EncryptedFileShare2.uml#_azods9dtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ek_Pk9dtEeum65_6TcdgWw" name="Array">
+        <modelElement href="EncryptedFileShare2.uml#_azodtddtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ek_PlNdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azodttdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ek_PlddtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ek_PltdtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ek_Pl9dtEeum65_6TcdgWw" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ek_PmNdtEeum65_6TcdgWw" name="userEncryptionKeys">
+      <modelElement href="EncryptedFileShare2.uml#_azodt9dtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ek_PmddtEeum65_6TcdgWw" name="Generics">
+        <modelElement href="EncryptedFileShare2.uml#_azoduNdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ek_PmtdtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azoduddtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ek_Pm9dtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ek_PnNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ek_PnddtEeum65_6TcdgWw" name="Map">
+        <modelElement href="EncryptedFileShare2.uml#_azWJ09dtEeum65_6TcdgWw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ek_PntdtEeum65_6TcdgWw" comments="_ek9aQNdtEeum65_6TcdgWw" targetConnectionVisual="_ek9aQddtEeum65_6TcdgWw" name="decryptForUser">
+      <modelElement href="EncryptedFileShare2.uml#_aydZANdtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ek_Pn9dtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ek_PoNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ek_PoddtEeum65_6TcdgWw">
+        <modelElement href="EncryptedFileShare2.uml#_azXX8ddtEeum65_6TcdgWw"/>
+        <type xmi:id="_ek_PotdtEeum65_6TcdgWw" name="SharedFileContents">
+          <modelElement href="EncryptedFileShare2.uml#_aya8wNdtEeum65_6TcdgWw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ek_Po9dtEeum65_6TcdgWw" name="id">
+        <modelElement href="EncryptedFileShare2.uml#_aydZAddtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ek_PpNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+        <type xmi:id="_ek_PpddtEeum65_6TcdgWw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ek_PptdtEeum65_6TcdgWw" name="key">
+        <modelElement href="EncryptedFileShare2.uml#_aydZAtdtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ek_Pp9dtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ek_PqNdtEeum65_6TcdgWw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ek_PqddtEeum65_6TcdgWw" name="systemKey">
+        <modelElement href="EncryptedFileShare2.uml#_aydZA9dtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ek_PqtdtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ek_Pq9dtEeum65_6TcdgWw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ek_PrNdtEeum65_6TcdgWw" comments="_ek9aQtdtEeum65_6TcdgWw" targetConnectionVisual="_ek9aQ9dtEeum65_6TcdgWw" name="load" staticOperation="true">
+      <modelElement href="EncryptedFileShare2.uml#_azi-INdtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ek_PrddtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ek_PrtdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ek_Pr9dtEeum65_6TcdgWw">
+        <modelElement href="EncryptedFileShare2.uml#_azi-ItdtEeum65_6TcdgWw"/>
+        <type xmi:id="_ek_PsNdtEeum65_6TcdgWw" name="EncryptedSharedFile">
+          <modelElement href="EncryptedFileShare2.uml#_ayZuoNdtEeum65_6TcdgWw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ek_PsddtEeum65_6TcdgWw" name="input">
+        <modelElement href="EncryptedFileShare2.uml#_azi-IddtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ek_PstdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+        <type xmi:id="_ek_Ps9dtEeum65_6TcdgWw" name="File">
+          <modelElement href="EncryptedFileShare2.uml#_azR4YNdtEeum65_6TcdgWw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ek_PtNdtEeum65_6TcdgWw" comments="_ek-BUNdtEeum65_6TcdgWw" targetConnectionVisual="_ek-BUddtEeum65_6TcdgWw" name="EncryptedSharedFile">
+      <modelElement href="EncryptedFileShare2.uml#_azjlMNdtEeum65_6TcdgWw"/>
+      <keywords xmi:id="_ek_PtddtEeum65_6TcdgWw" keyword="create"/>
+      <visibility xmi:id="_ek_PttdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ek_Pt9dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ek_PuNdtEeum65_6TcdgWw">
+        <modelElement href="EncryptedFileShare2.uml#_azjlN9dtEeum65_6TcdgWw"/>
+        <type xmi:id="_ek_PuddtEeum65_6TcdgWw" name="EncryptedSharedFile">
+          <modelElement href="EncryptedFileShare2.uml#_ayZuoNdtEeum65_6TcdgWw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ek_PutdtEeum65_6TcdgWw" name="filename">
+        <modelElement href="EncryptedFileShare2.uml#_azjlMddtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ek_Pu9dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+        <type xmi:id="_ek_PvNdtEeum65_6TcdgWw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ek_PvddtEeum65_6TcdgWw" name="fileContents">
+        <modelElement href="EncryptedFileShare2.uml#_azjlMtdtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ek_PvtdtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ek_Pv9dtEeum65_6TcdgWw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ek_PwNdtEeum65_6TcdgWw" name="sharingParties">
+        <modelElement href="EncryptedFileShare2.uml#_azjlM9dtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ek_PwddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+        <type xmi:id="_ek_PwtdtEeum65_6TcdgWw" name="List">
+          <modelElement href="EncryptedFileShare2.uml#_azWJ0ddtEeum65_6TcdgWw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ek_Pw9dtEeum65_6TcdgWw" name="systemKey">
+        <modelElement href="EncryptedFileShare2.uml#_azjlNNdtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ek_PxNdtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ek_PxddtEeum65_6TcdgWw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ek_PxtdtEeum65_6TcdgWw" comments="_ek-BUtdtEeum65_6TcdgWw" targetConnectionVisual="_ek-oYNdtEeum65_6TcdgWw" name="store">
+      <modelElement href="EncryptedFileShare2.uml#_azkMQtdtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ek_Px9dtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ek_PyNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ek_PyddtEeum65_6TcdgWw">
+        <modelElement href="EncryptedFileShare2.uml#_azkMRNdtEeum65_6TcdgWw"/>
+        <type xmi:id="_ek_PytdtEeum65_6TcdgWw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ek_Py9dtEeum65_6TcdgWw" name="outputDirectory">
+        <modelElement href="EncryptedFileShare2.uml#_azkMQ9dtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ek_PzNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+        <type xmi:id="_ek_PzddtEeum65_6TcdgWw" name="File">
+          <modelElement href="EncryptedFileShare2.uml#_azR4YNdtEeum65_6TcdgWw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ekKwENdtEeum65_6TcdgWw" comments="_ej_w8NdtEeum65_6TcdgWw" targetConnectionVisual="_ekKJANdtEeum65_6TcdgWw" name="User" associationsIn="_ej0KyddtEeum65_6TcdgWw" generalizations="_s3cBYddtEeum65_6TcdgWw">
+    <modelElement href="EncryptedFileShare2.uml#_aygcU9dtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_ekKwEddtEeum65_6TcdgWw" position="15.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ekKwEtdtEeum65_6TcdgWw" label="+"/>
+    <attributes xmi:id="_ekKwE9dtEeum65_6TcdgWw" defaultValue="589277442761251888L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="EncryptedFileShare2.uml#_azpEwNdtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ekKwFNdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ekKwFddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ekKwFtdtEeum65_6TcdgWw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ekKwF9dtEeum65_6TcdgWw" name="id">
+      <modelElement href="EncryptedFileShare2.uml#_azpEwtdtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ekKwGNdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ekKwGddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ekKwGtdtEeum65_6TcdgWw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ekKwG9dtEeum65_6TcdgWw" name="publicKey">
+      <modelElement href="EncryptedFileShare2.uml#_azpEw9dtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ekKwHNdtEeum65_6TcdgWw" name="Array">
+        <modelElement href="EncryptedFileShare2.uml#_azpExddtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ekKwHddtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ekKwHtdtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ekKwH9dtEeum65_6TcdgWw" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ekKwINdtEeum65_6TcdgWw" name="User">
+      <modelElement href="EncryptedFileShare2.uml#_ayhDYNdtEeum65_6TcdgWw"/>
+      <keywords xmi:id="_ekKwIddtEeum65_6TcdgWw" keyword="create"/>
+      <visibility xmi:id="_ekKwItdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ekKwI9dtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ekKwJNdtEeum65_6TcdgWw">
+        <modelElement href="EncryptedFileShare2.uml#_ayhDZddtEeum65_6TcdgWw"/>
+        <type xmi:id="_ekKwJddtEeum65_6TcdgWw" name="User">
+          <modelElement href="EncryptedFileShare2.uml#_aygcU9dtEeum65_6TcdgWw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ekKwJtdtEeum65_6TcdgWw" name="publicKey">
+        <modelElement href="EncryptedFileShare2.uml#_ayhDYddtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ekKwJ9dtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ekKwKNdtEeum65_6TcdgWw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ekKwKddtEeum65_6TcdgWw" name="id">
+        <modelElement href="EncryptedFileShare2.uml#_ayhDYtdtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ekKwKtdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+        <type xmi:id="_ekKwK9dtEeum65_6TcdgWw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ekKwLNdtEeum65_6TcdgWw" name="toString">
+      <modelElement href="EncryptedFileShare2.uml#_ayhDaNdtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ekKwLddtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_ayhqcddtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ekKwLtdtEeum65_6TcdgWw" name="Annotations">
+        <modelElement href="EncryptedFileShare2.uml#_ayhqctdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ekKwL9dtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ekKwMNdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ekKwMddtEeum65_6TcdgWw">
+        <modelElement href="EncryptedFileShare2.uml#_ayhqcNdtEeum65_6TcdgWw"/>
+        <type xmi:id="_ekKwMtdtEeum65_6TcdgWw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ekmN4tdtEeum65_6TcdgWw" name="SharedFileContents">
+    <modelElement href="EncryptedFileShare2.uml#_aya8wNdtEeum65_6TcdgWw"/>
+    <visualProperties xmi:id="_ekmN49dtEeum65_6TcdgWw" position="552.0,372.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ekmN5NdtEeum65_6TcdgWw" label="+"/>
+    <attributes xmi:id="_ekmN5ddtEeum65_6TcdgWw" name="contents">
+      <modelElement href="EncryptedFileShare2.uml#_aznPktdtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ekmN5tdtEeum65_6TcdgWw" name="Array">
+        <modelElement href="EncryptedFileShare2.uml#_azn2oNdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ekmN59dtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ekmN6NdtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_ekmN6ddtEeum65_6TcdgWw" name="byte">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ekmN6tdtEeum65_6TcdgWw" name="fileName">
+      <modelElement href="EncryptedFileShare2.uml#_azn2oddtEeum65_6TcdgWw"/>
+      <stereotypes xmi:id="_ekmN69dtEeum65_6TcdgWw" name="LegacyStyledElement">
+        <modelElement href="EncryptedFileShare2.uml#_azn2otdtEeum65_6TcdgWw"/>
+      </stereotypes>
+      <visibility xmi:id="_ekmN7NdtEeum65_6TcdgWw" label="-"/>
+      <cardinality xmi:id="_ekmN7ddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <type xmi:id="_ekmN7tdtEeum65_6TcdgWw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ekmN79dtEeum65_6TcdgWw" comments="_ekansNdtEeum65_6TcdgWw" targetConnectionVisual="_eklm0NdtEeum65_6TcdgWw" name="SharedFileContents">
+      <modelElement href="EncryptedFileShare2.uml#_aybj0NdtEeum65_6TcdgWw"/>
+      <keywords xmi:id="_ekmN8NdtEeum65_6TcdgWw" keyword="create"/>
+      <visibility xmi:id="_ekmN8ddtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ekmN8tdtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ekmN89dtEeum65_6TcdgWw">
+        <modelElement href="EncryptedFileShare2.uml#_aycK49dtEeum65_6TcdgWw"/>
+        <type xmi:id="_ekmN9NdtEeum65_6TcdgWw" name="SharedFileContents">
+          <modelElement href="EncryptedFileShare2.uml#_aya8wNdtEeum65_6TcdgWw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ekmN9ddtEeum65_6TcdgWw" name="contents">
+        <modelElement href="EncryptedFileShare2.uml#_aybj0ddtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ekmN9tdtEeum65_6TcdgWw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_ekmN99dtEeum65_6TcdgWw" name="byte">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ekmN-NdtEeum65_6TcdgWw" name="fileName">
+        <modelElement href="EncryptedFileShare2.uml#_aycK4NdtEeum65_6TcdgWw"/>
+        <cardinality xmi:id="_ekmN-ddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+        <type xmi:id="_ekmN-tdtEeum65_6TcdgWw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ekmN-9dtEeum65_6TcdgWw" comments="_ekmN4NdtEeum65_6TcdgWw" targetConnectionVisual="_ekmN4ddtEeum65_6TcdgWw" name="getFileName">
+      <modelElement href="EncryptedFileShare2.uml#_aycK5ddtEeum65_6TcdgWw"/>
+      <visibility xmi:id="_ekmN_NdtEeum65_6TcdgWw" label="+"/>
+      <cardinality xmi:id="_ekmN_ddtEeum65_6TcdgWw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_ekmN_tdtEeum65_6TcdgWw">
+        <modelElement href="EncryptedFileShare2.uml#_aycx8NdtEeum65_6TcdgWw"/>
+        <type xmi:id="_ekmN_9dtEeum65_6TcdgWw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
