@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Base64;
 /**
 
-* @author Ioanna Pashalidi Kozelj - nnp18llf
+* @author Ioanna PK - nnp18llf
  * 
  * This class contains getter methods for user id and public key
  *  *

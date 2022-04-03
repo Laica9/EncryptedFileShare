@@ -38,7 +38,7 @@ import encryption.User;
 
 /**
 
-* @author Ioanna Pashalidi Kozelj - nnp18llf
+* @author Ioanna PK - nnp18llf
  * 
  * GUI
  *  *

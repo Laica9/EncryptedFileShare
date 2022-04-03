@@ -26,7 +26,7 @@ import javax.swing.border.EmptyBorder;
 import encryption.User;
 /**
 
-* @author Ioanna Pashalidi Kozelj - nnp18llf
+* @author Ioanna PK - nnp18llf
  * 
  * prompts user to get the details of the sharing user
  *  *

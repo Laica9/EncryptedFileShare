@@ -27,7 +27,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 /**
 
-* @author Ioanna Pashalidi Kozelj - nnp8llf
+* @author Ioanna PK - nnp8llf
  *  *
  *  *This class contains methods that implement encryption, decryptioon and deals with the file storage
  */
